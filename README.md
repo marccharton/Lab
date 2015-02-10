@@ -5,11 +5,9 @@ I just wanted to set up a quick readme file just to have one.
 
 ### What is this repository for? ###
 
-* Quick summary
-Lab for tutorials, experimentations etc.  
+* Lab for tutorials, experimentations etc.  
 
-* Version
-1.0.0  
+* Version : 1.0.0  
 
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
