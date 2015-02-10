@@ -1,0 +1,10 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="1">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="918" startPos="685" endPos="685" selMode="0" lang="PHP" encoding="-1" filename="C:\Program Files (x86)\wamp\www\REPCHOK\index.php" />
+            <File firstVisibleLine="2" xOffset="0" scrollWidth="432" startPos="190" endPos="190" selMode="0" lang="CSS" encoding="-1" filename="C:\Program Files (x86)\wamp\www\REPCHOK\design.css" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="828" startPos="1058" endPos="1058" selMode="0" lang="PHP" encoding="-1" filename="C:\Program Files (x86)\wamp\www\amira.php" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

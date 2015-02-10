@@ -1,0 +1,40 @@
+html {
+	background: url('http://wallpapers.wallbase.cc/rozne/wallpaper-1435584.jpg') no-repeat center fixed;
+	margin:0; padding:0;
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+	-moz-background-size: cover; /* pour Firefox */
+	-o-background-size: cover; /* pour Opera */
+	background-size: cover; /* version standardisée */
+}
+
+body {
+	background: transparent;
+}
+
+
+#map {
+	height:600px;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
+#coords {
+	width: 300px;
+	min-height: 100px;
+	background: rgba(47,55,74,0.9);
+	position : absolute;
+	top: 200px; right: 10px;
+	border-radius: 10px;
+	display:none;
+}
+
+header {
+	background: #EEE;
+	padding: 5px;
+	margin-bottom:	10px;
+	height: 60px;
+}
+
+h1 small {
+	color: #428bca;
+}

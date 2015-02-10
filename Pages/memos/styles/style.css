@@ -1,0 +1,108 @@
+/* 
+    Document   : style
+    Created on : 1 déc. 2012, 16:55:17
+    Author     : Marc
+    Description:
+        Global style of the website
+*/
+
+/*************************************************
+*****   General */
+
+root {display: block;}
+* {padding: 0px;margin: 0px;}
+
+body {
+    background-color:#E0E0E0;
+}
+
+#main {
+    width:70%;
+    padding:10px;
+    margin: auto;
+    margin-top:20px;
+}
+
+/*****   Fin de General
+*************************************************/
+
+/*************************************************
+*****   Header */
+
+header {
+    height: 200px;
+    background-color: whitesmoke;
+}
+
+#header_title {
+    text-align: center;
+    /*border:black solid 1px;
+    background-color:#E0E0E0; */
+    font-size: 5em;
+}
+
+/*****   Fin de Header
+*************************************************/
+
+#post {
+    padding:20px;
+    margin-top:20px;
+    border:black solid 1px;
+    background-color:whitesmoke;
+    border-radius:5px;
+}
+
+textarea { 
+    resize: none; 
+    height: 100px;
+}
+
+/*************************************************
+*****   Section */
+
+section {
+    padding:20px;
+    margin-top:20px;
+    background-color:whitesmoke;
+    border-radius:5px;
+}
+
+/*****   Fin de Section
+*************************************************/
+
+/*************************************************
+*****   Article */
+
+article {
+    padding:20px;
+    margin:10px;
+    margin-top:20px;
+    border:black solid 1px;
+    background-color:#EEE;
+    border-radius:5px;
+    width:44%;
+    display: inline-block;
+    background-image: url("../img/postitJaune.png");
+    background-repeat: no-repeat;
+}
+
+#post_msg {
+    background-color: #F9F9F9;
+    width:100%;
+}
+/*****   Fin de Article
+*************************************************/
+
+
+/*************************************************
+*****   Footer */
+
+footer {
+    height: 100px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+}
+
+/*****   Fin de Footer
+*************************************************/
+

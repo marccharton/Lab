@@ -1,0 +1,34 @@
+html {
+	background: url('bg.jpg');
+	background-size: cover;
+}
+
+body {
+	background-color: transparent;
+	color: #EEE;
+}
+
+.container {
+	background: transparent;
+}
+
+#main {
+	margin: 50px 0;
+	background-image: linear-gradient(to bottom, rgba(250,250,250,0.5), rgba(200,200,200,0.5));
+	padding: 20px;
+}
+
+#slider {
+	min-height: 400px;
+	margin: 0 auto;
+}
+
+.csSlideOuter {
+	border-radius: 5px;
+	box-shadow: 10px 10px 20px #444;
+	
+}
+
+#imageGallery {
+	list-style: none;
+}

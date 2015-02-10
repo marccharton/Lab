@@ -1,0 +1,128 @@
+/* 
+    Document   : style
+    Created on : 1 déc. 2012, 16:55:17
+    Author     : Marc
+    Description:
+        Global style of the website
+*/
+
+/*************************************************
+*****   General */
+
+root {display: block;}
+* {padding: 0px;margin: 0px;}
+
+body {
+    background-color:#E0E0E0;
+    background-image: url("../assets/img/fond.png");
+}
+
+#main {
+    width:70%;
+    padding:10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.text {
+    color: whitesmoke;
+}
+
+h1 {
+    color: whitesmoke;
+    margin: auto;
+    width:300px;
+    text-align: center;
+}
+
+.h1Auhor {
+    font-size: 35px;
+}
+
+/*****   Fin de General
+*************************************************/
+
+/*************************************************
+*****   Header */
+
+header {
+    height: 200px;
+    background-color: whitesmoke;
+    background-color: rgba(30, 30, 30, 0.9);
+}
+
+#header_title {
+    text-align: center;
+    /*border:black solid 1px;
+    background-color:#E0E0E0; */
+    font-size: 9em;
+}
+
+/*****   Fin de Header
+*************************************************/
+
+#post {
+    padding:20px;
+    margin-top:20px;
+    border:black solid 1px;
+    background-color: rgba(20, 30, 20, 0.9);
+    border-radius:5px;
+}
+
+textarea { 
+    resize: none; 
+    height: 100px;
+    background-color: rgba(220, 255, 200, 0.9);
+}
+
+/*************************************************
+*****   Section */
+
+section {
+    padding:20px;
+    margin-top:20px;
+    background-color:whitesmoke;
+    background-color: rgba(30, 30, 30, 0.9);
+    border-radius:5px;
+}
+
+/*****   Fin de Section
+*************************************************/
+
+/*************************************************
+*****   Article */
+
+article {
+    padding:10px;
+    margin:10px;
+    margin-top:20px;
+    border:black solid 1px;
+    background-color:rgba(40, 150, 50, 0.9);
+    border-radius:5px;
+    width:44%;
+    display: inline-block;
+}
+
+#post_msg {
+    padding: 10px;
+    background-color: #F9F9F9;
+    background-color: whitesmoke;
+    width:100%;
+    word-wrap: break-word;
+}
+/*****   Fin de Article
+*************************************************/
+
+
+/*************************************************
+*****   Footer */
+
+footer {
+    height: 100px;
+    background-color: whitesmoke;
+    background-color: rgba(30, 30, 30, 0.9);
+    margin-top: 20px;
+}
+
+/*****   Fin de Footer
+*************************************************/
