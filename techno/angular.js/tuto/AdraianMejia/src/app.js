@@ -1,4 +1,16 @@
-angular.module('app', [])
+
+
+angular.module('app', ['ngRoute'])
+  .config(['$routeProvider', function ($routeProvider) {
+    $routeProvider
+      .when('/', {
+        templateUrl: '/todos.html',
+        controller: 'TodoController'
+      });
+  }]);
+
+
+  angular.module('app', [])
   .controller('TodoController', ['$scope', function ($scope) {
     $scope.todos = [
       { title: 'Learn Javascript', completed: true },
@@ -10,11 +22,3 @@ angular.module('app', [])
   }]);
 
 
-angular.module('app', ['ngRoute'])
-  .config(['$routeProvider', function ($routeProvider) {
-    $routeProvider
-      .when('/', {
-        templateUrl: '/todos.html',
-        controller: 'TodoController'
-      });
-  }]);

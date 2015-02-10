@@ -15,6 +15,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/index.html",
+			"settings":
+			{
+				"buffer_size": 708,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/app.js",
+			"settings":
+			{
+				"buffer_size": 648,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -184,6 +200,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/mcharton/Desktop/Docs/perso/dev/Lab/techno/angular.js/tuto/AdraianMejia/src/app.js",
 		"/C/wamp/www/sites/Lab/techno/nodeJS/socket.io/server.js",
 		"/C/Users/kram 47/Desktop/{EPITECH}/archives/EIP/mandroworld/mandroclient/MandroClient/protobuf/generate.py",
 		"/C/Users/kram 47/Desktop/{EPITECH}/archives/EIP/svn/www/contact.html",
@@ -310,8 +327,7 @@
 		"/D/projets/Entreprise Application/chupachupa/chupachupa-desktopapp/Chupachupa-DesktopApp/bin/Debug/categories",
 		"/C/Users/kram 47/Documents/__VSDeploymentFailure__.txt",
 		"/D/projets/Entreprise Application/chupachupa/Common/BDD/Script.SQL",
-		"/D/projets/Entreprise Application/chupachupa/chupachupa-desktopapp/Chupachupa-DesktopApp/bin/Debug/account.xml",
-		"/D/projets/_Epitech/dotNet/wmp/MyMiniVLC/library.xml"
+		"/D/projets/Entreprise Application/chupachupa/chupachupa-desktopapp/Chupachupa-DesktopApp/bin/Debug/account.xml"
 	],
 	"find":
 	{
@@ -424,8 +440,67 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/index.html",
+					"settings":
+					{
+						"buffer_size": 708,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								700,
+								700
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/app.js",
+					"settings":
+					{
+						"buffer_size": 648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								221,
+								221
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -521,6 +596,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 163.0,
+	"side_bar_width": 303.0,
 	"status_bar_visible": true
 }
