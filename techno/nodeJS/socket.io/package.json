@@ -1,0 +1,9 @@
+{ 
+	"name" : "tuto socket.io",
+	"version" : "1.0.0",
+	"description" : "Tutos pour prendre en main socket.io",
+	"main" : "server.js",
+	"dependencies": {
+	    "socket.io": "~1.3.3"
+	  }
+}
