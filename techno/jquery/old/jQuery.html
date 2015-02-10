@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	div { background-color: #EEE; }
+	
+	p { width:900px; margin:auto; background-color: #DDD; text-align:center;}
+	
+</style>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+</script>
+<script>
+	$(document).ready(function() {
+		function after(){			
+			$("p").animate({height: '800px'});
+			$("p").text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae massa dignissim neque luctus volutpat sit amet sit amet ligula. Maecenas quis sapien lorem. Quisque vulputate ipsum vitae urna imperdiet tristique. Suspendisse aliquam, augue quis ullamcorper placerat, sem ipsum ultricies velit, ut gravida mi dolor in felis. Morbi id libero tortor, quis auctor urna. Morbi molestie, tortor vitae volutpat volutpat, nisl quam condimentum ligula, id pulvinar magna ante eu sapien. Nullam scelerisque adipiscing sapien, quis mollis diam dictum pellentesque. Nam dapibus tristique felis nec accumsan. Nulla eget diam eget risus semper ultrices. Aenean iaculis lectus quis felis semper molestie. Donec vitae risus id odio sodales interdum. Sed gravida tristique eros quis venenatis. Suspendisse imperdiet est id tellus laoreet fringilla. Etiam nec consequat lacus. Morbi nibh arcu, placerat nec consequat ac, vehicula ut lacus.");			
+			$("p").animate({width: '600px'});
+			$("p").animate({height: '400px'});
+			$("p").animate({width: '400px'});
+			$("p").animate({height: '500px'});
+			$("p").animate({width: '200px'});
+			$("p").animate({height: '800px'});
+			$("p").hide(100);
+			$("p").show(100);
+			$("p").animate({width: '50px'});
+			$("p").animate({height: '400px'});
+			$("p").show(500);
+			$("p").animate({width: '400px'});
+		};
+		
+		$("button").click(function(){
+			$("p").show("slow", after);
+			test();
+		})
+		
+		function test() {
+			$("div").hide(100).show(100).animate({width: '800px'});
+			$("div").hide(100).show(500).animate({width: '300px'});
+			$("div").hide(400);
+			$("div").show(200);
+			$("div").animate({width: '800px'})
+			$("div").hide(100).show(100).animate({width: '800px'});
+		};
+		
+	});
+</script>
+</head>
+<body>
+	<button>click</button>
+	<div> Developper </div>
+	<p> Developper </p>
+</body>
+</html>
+

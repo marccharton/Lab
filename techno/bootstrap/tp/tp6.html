@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> Utilisation Bootstrap TP 6</title>
+	<link type="text/css" rel="stylesheet" href="../bootstrap/css/bootstrap.css" />
+	<style>	
+	body {
+		padding-top:60px;
+	}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="hero-unit">
+	  <h1> Bootstrap </h1>
+	  <p> TP6 : Alertes et barres de progression </p>
+	</div>
+	
+	<div class="row">
+		<div class="alert span3">
+			<strong>Attention!</strong> Vous allez trop loin !
+		</div>
+
+		<div class="alert span1 alert-info">
+			<strong>Infos !</strong>
+		</div>
+		<div class="alert span1 alert-success">
+			<strong>Bravo!</strong>
+		</div>
+		<div class="alert span1 alert-danger">
+			<strong>Danger!</strong>
+		</div>
+			
+		</div>
+	
+	<div class="row">
+		<div class="alert span5 alert-info alert-block">
+			<h3>Information importante!</h3>
+			L'utilisation de la classe <strong>alert</strong> n'est pas sans danger pour les yeux fatigués des pauvres internautes 
+			et je vous demande instamment de l'utiliser avec parcimonie...
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="alert alert-block span4 hide">
+			<button type="button" class="close">×</button>
+			<h4>Attention!</h4> Petite information importante !
+		</div>
+		<div class="span3">
+			<input type="button" class="btn-primary" id="afficher" value="Afficher l'alerte">
+		</div>
+	</div>
+	<script src="../jquery/jquery-1.9.0.js"></script> 
+	<script>  
+	$(function (){
+		$("#afficher").click(function() {
+			$("#afficher").hide();
+			$(".alert").show("slow");
+		}); 
+		$(".close").click(function() {
+			$(".alert").hide("slow");
+			$("#afficher").show();
+		}); 
+	}); 
+	</script>
+	
+	
+	<div class="row well">
+	  <div class="progress progress-info">
+		<div class="bar""></div>
+	  </div>
+	  <div class="progress progress-success">
+		<div class="bar""></div>
+	  </div>
+	  <div class="progress progress-warning">
+		<div class="bar""></div>
+	  </div>
+	  <div class="progress progress-danger">
+		<div class="bar""></div>
+	  </div>
+	  <div class="progress progress-info progress-striped">
+		<div class="bar""></div>
+	  </div>
+	  <div class="progress progress-success progress-striped">
+		<div class="bar""></div>
+	  </div>
+	  <div class="progress progress-warning progress-striped">
+		<div class="bar""></div>
+	  </div>
+	  <div class="progress progress-danger progress-striped">
+		<div class="bar""></div>
+	  </div>
+	  <input type="button" class="btn-primary" id="animer" value="Animer">
+	</div>
+	<script src="../jquery/jquery-1.9.0.js"></script> 
+	<script>
+	function timer(n) {
+		$(".bar").css("width", n + "%");
+		if(n < 100) {
+			setTimeout(function() {
+				timer(n + 10);
+			}, 200);
+		}
+	}
+	$(function (){
+		$("#animer").click(function() {
+			timer(0);
+		});
+	});
+	</script>
+</div>
+</body>
+</html>
+
+	
+	

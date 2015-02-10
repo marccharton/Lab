@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Apprentissage AJAX</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.css" />
+<style>
+.btn {
+	margin: 5px 0px;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="hero-unit">
+			<h1> AJAX </h1>
+			<p> Quelques petits trucs en vrac sur l'ajax... </p>
+			<span id="clock"> </span>
+		</div>
+		
+		<div class="row">
+			<div class="span3 well">
+				Bonjour à tous je vous propose de découvrir ensemble ma super station météo ! <br />
+				<button onclick="addData()" class="btn btn-primary"> Mettre à jour les données </button>
+			</div>
+			<div class="span5 well" id="stationMeteo">
+				<h1> Station Météo </h1>
+				<div> Température : <span id="temperature" /> </div>
+				<div> Humidité : <span id="humidite" /> </div>
+				<div> Tendance : <span id="tendance" /> </div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="span1">
+				<h2> Window </h2>
+			</div>
+			<div class="span11 well">
+				<button onclick="testPopup()" class="btn btn-primary"> Ouvrir popup </button>
+				<button onclick="changePage()" class="btn btn-primary"> Changer de page </button>
+				<button onclick="refreshPage()" class="btn btn-primary"> Rafraichir la page </button>
+				<button onclick="historyBack()" class="btn btn-primary"> Page Précédente </button>
+				<button onclick="historyNext()" class="btn btn-primary"> Page Suivante </button>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="span1">
+				<h2> Document </h2>
+			</div>
+			<div class="span11 well">
+				<button onclick="changeTitle()" class="btn btn-primary"> Changer le titre </button>
+				<button onclick="changeBackground()" class="btn btn-primary"> Changer le fond </button>
+			</div>
+		</div>
+	</div>
+	<script src="simple.js" type="text/javascript"> </script>
+</body>
+</html>

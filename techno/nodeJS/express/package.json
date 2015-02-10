@@ -1,0 +1,13 @@
+{
+    "name": "my-tasklist",
+    "version": "0.1.0",
+    "dependencies": {
+        "express": "~4.11.0",
+        "ejs": "~2.1.4",
+        "cookie-session": "~1.1.0",
+        "express-session": "~1.10.2",
+        "body-parser": "~1.10.1"
+    },
+    "author": "Kram47 <kramoogle@gmail.com>",
+    "description": "Task list manager just to try nodejs"
+}

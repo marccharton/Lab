@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body { background-color: #EEE; }
+	
+	#container { width:900px; min-height:800px; margin:auto; background-color: #BBB; text-align:center;}
+	
+	header { width:100px; height:50px; background-color: #DDF; margin-bottom: 10px;}
+	nav { width:750px; height:250px; background-color: #DDF; margin-bottom: 10px;}
+	section { width:10px; height:6px; background-color: #DDF; margin-bottom: 10px; }
+	footer { width:1000px; height:780px; background-color: #DDF; }
+	
+</style>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+</script>
+<script>
+	$(document).ready(function() {
+			$("header").animate({height:'150px'});
+			$("header").animate({width:'100%'});
+			
+			$("nav").animate({height:'50px'});
+			$("nav").animate({width:'100%'});
+			
+			$("section").animate({height:'600px'});
+			$("section").animate({width:'100%'});
+			
+			$("footer").animate({height:'100px'});
+			$("footer").animate({width:'100%'});
+			
+	});
+</script>
+</head>
+<body>
+	<div id="container">
+		<header> Yo mon poulet</header>
+		<nav> Yo mon poulet </nav>
+		<section> Yo mon poulet</section>
+		<footer> Yo mon poulet</footer>
+	</div>
+</body>
+</html>
+

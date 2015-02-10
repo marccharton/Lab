@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task List</title>
+</head>
+<body>
+	<h1>Ma TODO List</h1>
+	
+	<ul>
+		<% list.forEach(function(task, index){ %>
+			<li> <a href="tasks/delete/<%= index %>">X</a> <%= task %> </li>
+	    <%	}); %>
+	</ul>
+	
+	<form action="/tasks/add" method="post">
+		<input type="text" placeholder="Ajouter une tâche" name="task"> </input>
+		<button type="submit"> Ajouter </button>
+	</form>
+</body>
+</html>

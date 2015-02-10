@@ -1,0 +1,49 @@
+/* ************************************
+************* Variables ***************/
+/* ************************************
+************** Mixins *****************/
+/* ************************************
+*************** Style *****************/
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #DDD;
+  color: #333;
+  font-family: helvetica, sans-serif; }
+
+header {
+  background: #333;
+  height: 70px;
+  line-height: 70px;
+  color: #4747a0;
+  padding: 10px;
+  margin: 0 0 25px 0; }
+
+section {
+  width: 900px;
+  margin: 0 auto;
+  text-align: justify; }
+  section a {
+    color: #4747a0;
+    font-weight: bold; }
+  section p {
+    margin: 10px 0; }
+  section .first, section .second {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px; }
+    section .first a, section .second a {
+      color: #987800; }
+  section .second {
+    border: darkgray 5px solid; }
+
+p {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background: #FFF;
+  padding: 20px; }
+
+/*# sourceMappingURL=style.css.map */

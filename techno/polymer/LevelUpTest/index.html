@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Tuto Polymer</title>
+		<script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+		<link rel="import" href="bower_components/polymer/polymer.html">
+
+		<link rel="import" type="text/html" href="elements/hello-world.html" />
+		<link rel="import" type="text/html" href="elements/hello-world2.html" />
+		<link rel="import" type="text/html" href="bower_components/core-tooltip/core-tooltip.html" />
+		<link rel="import" type="text/html" href="bower_components/core-header-panel/core-header-panel.html" />
+		<link rel="import" type="text/html" href="bower_components/core-toolbar/core-toolbar.html" />
+		<link rel="import" type="text/html" href="bower_components/core-icons/core-icons.html" />
+		<link rel="import" type="text/html" href="bower_components/core-icons/av-icons.html" />
+		
+		<meta charset="UTF-8" />
+
+		<style>
+			hello-world::shadow h1{ color: #333; }
+
+			body { background: #efefef;	font-family: sans-serif;}
+			h1 { color: #303088; }
+			h2 { color: #202066; }
+
+			core-header-panel {
+				height: 70px;
+			}
+			core-toolbar {
+				background: #333;
+				color: #EEE;
+			}
+			core-icon[icon="polymer"] {
+				color: #5050e1;
+				height: 50px;
+				width: 50px;
+			}
+			.example { background: #333; height:200px}
+			.example > div { background: #EEA; margin:10px;}
+		</style>
+	</head>
+	<body fullbleed vertical>
+
+		<core-header-panel>
+			<core-toolbar>
+				<core-icon icon="polymer"></core-icon>
+				<core-icon icon="av:artist"></core-icon>
+				<div>Toolbar</div>
+			</core-toolbar>
+		</core-header-panel>
+
+		<h1>Level Up Tuts - Tuto Polymer</h1>
+		<hr width="90%" />
+
+		<h2>Hello world</h2>
+		<hr width="200px" align="left"/>
+		<hello-world></hello-world>
+
+		<h2>Hello world2</h2>
+		<hr width="200px" align="left"/>
+		<hello-world2></hello-world2>
+
+		<h2>Core Elements</h2>
+		<hr width="200px" align="left"/>
+		<core-tooltip label="Je suis un Hello-world avec une tooltip" position="right">
+			<span>Ouech Ma gueule viens par là ! </span>
+		</core-tooltip>
+
+		<h2>Polymer Attributes</h2>
+		<div class="example" layout vertical>
+			<div>One</div>
+			<div flex>Two</div>
+			<div flex two>Three</div>
+		</div>
+
+	</body>
+</html>

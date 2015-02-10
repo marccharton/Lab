@@ -1,0 +1,22 @@
+<polymer-element name="hello-world" attributes="name">
+	<template>
+		<style>
+			h1 {
+				font-family: sans-serif;
+				text-shadow: 1px 1px 3px #000;
+			}
+		</style>
+		<h1>Coucou {{name}}</h1>
+		<button on-click="{{changeName}}">Change The Name</button>
+	</template>
+	<script>
+		Polymer('hello-world', {
+			ready: function() {
+				this.name = "coudcds";
+			},
+			changeName : function() {
+				this.name = "Nouveau Nom";
+			}
+		})
+	</script>
+</polymer-element>

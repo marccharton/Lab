@@ -1,0 +1,56 @@
+/* ************************************
+*************** Each *****************/
+
+// Définition d'une liste
+$icons:(twitter, facebook, youtube, rss);
+
+// Boucle foreach sur cette liste
+@each $social in $icons {
+	
+	// Définition d'un style en utilisant la variable #{$variable}
+	.#{$social} {
+		background: url('img/#{$social}.png') no-repeat;
+		-webkit-background-size: 65px 65px;
+		     -o-background-size: 65px 65px;
+		        background-size: 65px 65px;
+		    text-indent: -9999px;
+	}
+}
+
+// Définition du style du conteneur
+ul.social-links li {
+	list-style-type: none;
+	a {
+		display: block;
+		float: left;
+		width: 65px;
+		height: 65px;
+	}
+}
+
+$height : 60px;
+
+// Foreach dans une liste à deux dimensions définie à la volée
+@each $p in  (
+	one black $height+10px,
+	two black+20 $height+20px,
+	three black+30 $height+30px,
+	four black+40 $height+40px,
+	five black+50 $height+50px,
+	six black+60 $height+60px,
+	seven black+70 $height+70px,
+	eight black+80 $height+80px,
+	nine black+90 $height+90px,
+	ten black+100 $height+100px,
+	eleven black+110 $height+110px
+)
+{
+	// Utilisation de nth (en français le N-ième)
+	// #{nth($variable,1) est le premier élément
+	// #{nth($variable,2) est le deuxieme élément
+	// ...
+	.#{nth($p,1)} {
+		background: #{nth($p,2)};
+		height: #{nth($p,3)};
+	}
+}

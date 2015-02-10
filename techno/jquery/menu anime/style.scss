@@ -1,0 +1,48 @@
+* {padding:0; margin:0;}
+
+body {
+	background: #EEE;
+	font-family: helvetica, sans-serif;
+}
+
+header {
+	height:      200px;
+	line-height: 200px;
+	background:  #333;
+	color:       #4752A7;
+}
+
+
+//--------------------------------------------------------
+
+li {
+	width: 100px;
+	height: 60px;
+	float: left;
+	color: #191919;
+	text-align: center;
+	overflow: hidden;
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+p {
+	padding: 0 5px;
+}
+
+@mixin bgColor($color) {
+	background: $color;
+}
+
+.green{@include  bgColor(#6AA63B);}
+
+.yellow{@include  bgColor(#FBC700);}
+
+.red{@include  bgColor(#D52100);}
+
+.purple{@include  bgColor(#5122B4);}
+
+.blue{@include  bgColor(#0292C0);}

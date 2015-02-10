@@ -1,0 +1,64 @@
+@import "colors";
+@import "mixins";
+@import "each";
+@import "functions";
+
+/* ************************************
+*************** Style *****************/
+
+* {margin:0;padding:0;}
+
+body {
+	// Utilisation des variables
+	background: $background;
+	color: $foreground;
+	font-family: helvetica, sans-serif;
+	color: $gray;
+}
+
+header {
+	h1 {
+		font-size: 3em;
+	}
+	background: $black;
+	height: 150px;
+	line-height: 70px;
+	color: $blue;
+	padding: 10px;
+	margin: 0 0 25px 0;
+}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom:1; }
+
+
+// Utilisation de l'imbrication de code.
+// plutot que d'ecrire : section p .one
+// on imbrique les elements les uns dans les autres.
+section {
+	width: 900px;
+	margin: 0 auto;
+	text-align: justify;
+	a { color: $blue; font-weight: bold; }
+	p { margin: 10px 0;	overflow: hidden; width: 100%;}
+	.one {
+		// Utilisation d'un mixin avec paramètre
+		@include borderRadiusPlease(50px);
+		a { color: $marron; }
+		float: left;
+	}
+	.two {
+		// Utilisation de l'héritage de données. .two a le même comportement que .one + un border.
+		
+		border: darkgray 5px solid;
+		float: right;
+	}
+}
+
+p {
+	// Utilisation d'un mixin
+	@include borderRadiusPlease;
+	background: #FFF;
+	padding: 20px;
+}

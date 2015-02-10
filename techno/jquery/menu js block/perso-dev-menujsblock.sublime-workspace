@@ -1,0 +1,640 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"web",
+				"PRISMA_ARTICLES_WEBSTOP"
+			],
+			[
+				"abon",
+				"PRISMA_ARTICLES_ABONNEMENT_EXT"
+			],
+			[
+				"WES",
+				"PRISMA_DATA_WEBSERVICE"
+			],
+			[
+				"ZOM",
+				"ZOMBIES"
+			],
+			[
+				"MARQUE",
+				"MARQUEID"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 318.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"sss",
+				"Set Syntax: SQL"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"rempa",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remp",
+				"Package Control: Remove Package"
+			],
+			[
+				"ssc",
+				"Set Syntax: C#"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inser",
+				"Insert File Path"
+			],
+			[
+				"ins",
+				"Insert Directory Relative to Project"
+			],
+			[
+				"inserf",
+				"Insert File Name"
+			],
+			[
+				"filedr",
+				"Copy File Directory"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remoc",
+				"Package Control: Remove Package"
+			],
+			[
+				"pre",
+				"Preferences: Settings - User"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"them",
+				"Themr: List themes"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"ssx",
+				"Set Syntax: XML"
+			],
+			[
+				"dele",
+				"ANF: Delete File"
+			],
+			[
+				"kbd",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"kbu",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"name",
+				"ANF: Rename File"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"sssq",
+				"Set Syntax: SQL"
+			],
+			[
+				"ssj",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssxa",
+				"Set Syntax: XAML"
+			],
+			[
+				"set syntax: sq",
+				"Set Syntax: SQL (Rails)"
+			],
+			[
+				"sssql",
+				"Set Syntax: SQL"
+			],
+			[
+				"ssxml",
+				"Set Syntax: XML"
+			],
+			[
+				"sstext",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"expre",
+				"Set Syntax: Regular Expression"
+			],
+			[
+				"ssjav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"ss x",
+				"Set Syntax: XSL"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"person",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"perso",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"pers",
+				"Preferences: Settings - Default"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 344.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/mcharton/Desktop/Docs/perso/dev/menu js 2/app.js",
+		"/C/Users/mcharton/Desktop/Docs/perso/dev/menu js 2/style.css",
+		"/C/Users/mcharton/Desktop/Docs/perso/dev/menu js 2/app.jd",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/WEBSERVICE - Ajout champs v1/PRISMA_DATA_WEBSERVICE_SYNC.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/WEBSERVICE - Ajout champs v1/PRISMA_DATA_WEBSERVICE_UPDATE.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/WEBSERVICE - Ajout champs v2 - FACMINCEUR/EXPORT_WEBSERVICE.sql",
+		"/C/Users/mcharton/Desktop/CHAMP VILLE/PRISMA_USER_INDIVIDU_ALTER.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/WEBSERVICE - Ajout champs v1/EXPORT_WEBSERVICE.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/WEBSERVICE - Ajout champs v1/PRISMA_DATA_WEBSERVICE_INSERT.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/Ajout champs SYNC_GAP.sql",
+		"/C/Users/mcharton/Desktop/SYNC_GAP_DATA_WEBSERVICE_20150106143741.csv",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/OPTIN - Ajout champs v1/PRISMA_DATA_OPTIN_INSERT.sql",
+		"/C/Users/mcharton/Desktop/SSIS/Fichiers/Chiffre_Affaires.csv",
+		"/C/Users/mcharton/Desktop/COMPTAGE_SERVICE_20141230063007.csv",
+		"/C/Users/mcharton/Desktop/historique Deezer.html",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/OPTIN - Ajout champs v1/PRISMA_DATA_OPTIN_SYNC.sql",
+		"/Y/Projets/PRISMA/04.Developpement/Export Individu/Export Rattrapage ALL.sql",
+		"/Y/Projets/Eolane/Entrant Eolane/CRM_CMD_FACT_CLIE (2).csv",
+		"/C/Users/mcharton/Desktop/SSIS/Helpers/Tools.cs",
+		"/Y/Projets/PRISMA/04.Developpement/Evolution PRISMA_ACTION_SIM_SYNC/PRISMA_ACTION_SIM_SYNC v1.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION Slimfast 2 Abonnements ext/COMPUTE_OVER_OPTIN_REPORTING PROD Sauvegarde.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION Slimfast 2 Abonnements ext/_Test Slimfast.sql",
+		"/Y/Projets/PRISMA/04.Developpement/Export Individu/Export Prod.sql",
+		"/Y/Projets/PRISMA/04.Developpement/BUG ABONNEMENTS/Prisma article abonnement reject.sql",
+		"/Y/Projets/PRISMA/04.Developpement/BUG ABONNEMENTS/delete doublons + MAJ dates.sql",
+		"/Y/Projets/PRISMA/04.Developpement/BUG ABONNEMENTS/Compute Abo Ext PROD.sql",
+		"/Y/Projets/PRISMA/04.Developpement/BUG ABONNEMENTS/Compute Abo Ext + rejet en fonction de abonnements .sql",
+		"/Y/Projets/PRISMA/04.Developpement/BUG ABONNEMENTS/5.sql",
+		"/Y/Projets/PRISMA/04.Developpement/BUG ABONNEMENTS/Brouillons/5.sql",
+		"/Y/Projets/PRISMA/04.Developpement/BUG ABONNEMENTS/Brouillons/vrac doublons abo_ext.sql",
+		"/Y/Projets/PRISMA/04.Developpement/BUG ABONNEMENTS/MAJ Dates auto.sql",
+		"/Y/Projets/PRISMA/04.Developpement/BUG ABONNEMENTS/reject_2014107_SYNC_GAP_ABONNEMENT_ALTIRC20141007.csv",
+		"/Y/Projets/PRISMA/04.Developpement/BUG ABONNEMENTS/Requetes etude de volume abonnement titre incorrects.sql",
+		"/Y/Projets/PRISMA/04.Developpement/BUG ABONNEMENTS/SYNC_GAP_ABONNEMENT_ALTIRC20141007b.csv",
+		"/Y/Projets/PRISMA/04.Developpement/BUG ABONNEMENTS/vrac doublons abo_ext.sql",
+		"/Y/Projets/PRISMA/04.Developpement/BUG Softout/export_softout rattrapage.sql",
+		"/Y/Projets/PRISMA/04.Developpement/BUG Softout/export_softout prod.sql",
+		"/Y/Projets/PRISMA/04.Developpement/BUG Softout/SYNC_GAP_DATA_SOFTOUT_20141015164018.CSV",
+		"/Y/Projets/PRISMA/04.Developpement/Export WebServices/Export Feminin.SQL",
+		"/Y/Projets/PRISMA/04.Developpement/Export WebServices/Export WebServices.SQL",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION Taxonomy/EXPORT_TAXONOMY PROD.sql",
+		"/C/Users/mcharton/Desktop/test.css",
+		"/Y/Projets/Eolane/Entrant Eolane/CRM_CMD_FACT_CLIE (1).csv",
+		"/C/Users/mcharton/Desktop/SSIS/Fichiers/Action_AppelTelephonique.csv",
+		"/Y/Projets/Eolane/SSIS/Helpers/Helper v2.cs",
+		"/Y/Projets/Eolane/SSIS/Helpers/Importer.cs",
+		"/Y/Projets/Eolane/SSIS/Helpers/Reference.cs",
+		"/C/Users/mcharton/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/mcharton/AppData/Roaming/Sublime Text 2/Packages/Path Tools/README.md",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/OPTIN - Ajout champs v1/PRISMA_DATA_OPTIN_REJECT.sql",
+		"/C/Users/mcharton/Desktop/Docs/Projects/prisma-Evolution OPTIN & WEBSERVICE v2.sublime-project",
+		"/C/Users/mcharton/Desktop/Docs/Projects/prisma-Evolution OPTIN & WEBSERVICE v2.sublime-workspace",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/OPTIN - Ajout champs v1/PRISMA_DATA_OPTIN_UPDATE.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/OPTIN - Ajout champs v1/PRISMA_DATA_OPTIN_ALTER.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/OPTIN - Ajout champs v1/EXPORT_OPTIN.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/OPTIN SAVE Prod/PRISMA_DATA_OPTIN_UPDATE.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/OPTIN SAVE Prod/EXPORT_OPTIN.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/WEBSERVICE SAVE Prod/EXPORT_WEBSERVICE.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/WEBSERVICE SAVE Prod/PRISMA_DATA_WEBSERVICE_UPDATE.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/WEBSERVICE SAVE Prod/PRISMA_DATA_WEBSERVICE_REJECT.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/WEBSERVICE SAVE Prod/PRISMA_DATA_WEBSERVICE_MATCH.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/WEBSERVICE SAVE Prod/PRISMA_DATA_WEBSERVICE_INSERT.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/WEBSERVICE SAVE Prod/PRISMA_DATA_WEBSERVICE_ALTER.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/WEBSERVICE SAVE Prod/PRISMA_DATA_WEBSERVICE_SYNC.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/OPTIN - Ajout champs v1/PRISMA_DATA_OPTIN_MATCH.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION OPTIN & WEBSERVICE v2/PRISMA_DATA_OPTIN_ALTER",
+		"/C/Users/mcharton/Desktop/SSIS/INT_ACTION_APPELTELEPHONIQUE_EOL/INT_ACTION_APPELTELEPHONIQUE_EOL/Traitement Appels Télephonique.dtsx",
+		"/C/Users/mcharton/Desktop/SSIS/INT_ACTION_APPELTELEPHONIQUE_EOL/INT_ACTION_APPELTELEPHONIQUE_EOL.suo",
+		"/C/Users/mcharton/Desktop/SSIS/Helpers/Helper v2.cs",
+		"/C/Users/mcharton/Downloads/CRM_CMD_FACT_CLIE.csv",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION Slimfast 2 Abonnements ext/EXPORT_WEBSERVICE v1.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION Slimfast 2 Abonnements ext/EXPORT_OPTIN v1.sql",
+		"/Y/Projets/PRISMA/04.Developpement/Evolution PRISMA_ACTION_SIM_SYNC/PRISMA_ACTION_SIM_SYNC PROD Sauvegarde.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION Slimfast 2 Abonnements ext/EXPORT_OPTIN PROD Sauvegarde.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION Slimfast 2 Abonnements ext/EXPORT_WEBSERVICE PROD Sauvegarde.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION Slimfast 2 Abonnements ext/_Ajout du champ DEL.sql",
+		"/C/Users/mcharton/Desktop/SSIS/Fichiers/lead.csv",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION Slimfast 2 Abonnements ext/slimfast v3 Correction - Update Individu.sql",
+		"/C/Users/mcharton/Desktop/SSIS/Fichiers/RdvActivity.csv",
+		"/C/Users/mcharton/Desktop/SSIS/Fichiers/Opportunite.csv",
+		"/C/Users/mcharton/Desktop/SSIS/Fichiers/contact.csv",
+		"/C/Users/mcharton/Desktop/SSIS/Fichiers/account.csv",
+		"/C/Users/mcharton/Desktop/SSIS/INT_CONTACT_EOL/INT_CONTACT_EOL/INT_CONTACT_EOL.dtproj.user",
+		"/C/Users/mcharton/Desktop/SSIS/INT_CONTACT_EOL/INT_CONTACT_EOL/Package.dtsx",
+		"/C/Users/mcharton/Desktop/SSIS/Helpers/RetrieveGuidEntities v2.cs",
+		"/C/Users/mcharton/Desktop/SSIS/Helpers/Helper.cs",
+		"/C/Users/mcharton/Desktop/SSIS/Helpers/RetrieveGuidEntities.cs",
+		"/C/Users/mcharton/Desktop/Projets/Prisma/04.Developpement.lnk",
+		"/C/Users/mcharton/Desktop/SSIS/INT_ACCOUNT_EOL/INT_ACCOUNT_EOL/bin/Development/INT_ACCOUNT_EOL.ispac",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION Slimfast 2 Abonnements ext/slimfast v2 Temporisation de la suppression.sql",
+		"/C/Users/mcharton/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION Slimfast 2 Abonnements ext/COMPUTE_OVER_OPTIN_REPORTING v1 ajout de DEL.sql",
+		"/C/Users/mcharton/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION Slimfast 2 Abonnements ext/PRISMA_DATA_OPTIN_WEBS_SYNC v1 Prise en compte de DEL.sql",
+		"/C/Users/mcharton/AppData/Roaming/Sublime Text 2/Packages/SCSS/SCSS.tmLanguage",
+		"/C/Users/mcharton/AppData/Roaming/Sublime Text 2/Packages/SCSS/Default (Windows).sublime-keymap",
+		"/C/Users/mcharton/AppData/Roaming/Sublime Text 2/Packages/SCSS/Indentation rules.tmPreferences.cache",
+		"/C/Users/mcharton/Desktop/Projets/test.cpp",
+		"/C/Users/mcharton/AppData/Roaming/Sublime Text 2/Packages/AdvancedNewFile/README.md",
+		"/C/Users/mcharton/Desktop/Projets/test/lol/fichier.sql",
+		"/C/Users/mcharton/test/lol.sql",
+		"/C/Users/mcharton/test/newRep/newFile.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION Slimfast 2 Abonnements ext/Ajout du champ DEL.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION Slimfast 2 Abonnements ext/ajout du champ DEL.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION Slimfast 2 Abonnements ext/Test Slimfast.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION Slimfast 2 Abonnements ext/PRISMA_DATA_OPTIN_WEBS_SYNC Prod Sauvegarde.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION Slimfast 2 Abonnements ext/slimfast v2 update DEL + Abo Ext.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION Slimfast 2 Abonnements ext/slimfast PROD.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION Slimfast 2 Abonnements ext/slimfast update DEL + Abo Ext.sql",
+		"/Y/Projets/PRISMA/04.Developpement/EVOLUTION Slimfast 2 Abonnements ext/slimfast clean AbonnementEXT.sql",
+		"/Y/Projets/PRISMA/04.Developpement/BUG Slimfast/SLIMFAST v2.sql",
+		"/Y/Projets/PRISMA/04.Developpement/BUG Slimfast/SLIMFAST_OLD.sql",
+		"/C/Users/mcharton/Desktop/Docs/TutoSSIS/Wise Owl Tutorials/Part3/Part3/data/Part3 - Female.csv",
+		"/C/Users/mcharton/Desktop/Docs/TutoSSIS/Wise Owl Tutorials/Part3/Part3/data/Part3 - Male.csv",
+		"/C/Users/mcharton/Desktop/Docs/TutoSSIS/Wise Owl Tutorials/Part3/Part3/data/Part3 - Copie.csv",
+		"/C/Users/mcharton/Desktop/Part3.txt",
+		"/C/Users/mcharton/Desktop/Docs/TutoSSIS/Wise Owl Tutorials/Part3/Part3/data/Part3.csv",
+		"/C/Users/mcharton/Desktop/Docs/TutoSSIS/Part2/apps.txt",
+		"/C/Users/mcharton/Desktop/JSONObjects.cs",
+		"/C/Users/mcharton/Desktop/WebserviceCaller.cs",
+		"/C/Users/mcharton/Desktop/fusion.vbs",
+		"/C/Users/mcharton/Documents/coucou.csv",
+		"/C/Users/mcharton/Desktop/Prisma/export WebService.sql",
+		"/C/Users/mcharton/Desktop/LOADER_TEST.csv",
+		"/C/Users/mcharton/Desktop/SYNC_GAP_INDIVIDU_20141118474747.csv",
+		"/Y/Projets/PRISMA/04.Developpement/BUG ABONNEMENTS/Doublons - Suppression Verification.sql",
+		"/C/Users/mcharton/Desktop/Docs/Model-View-ViewModel Sample/C#/sdkMVVMCS/View/ItemView.xaml",
+		"/C/Users/mcharton/Desktop/Docs/Consume WCF from WP8.1 Sample/Consume WCF from WP8.1 Sample/Consume WCF from WP8.1 Sample/MainPage.xaml.cs"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"slideUp",
+			"Page",
+			"100",
+			"TELVIDEO",
+			",",
+			"FOO_OPTIN_M",
+			"SYNC_GAP_DATA_OPTIN",
+			"FOO",
+			"10",
+			"Montant_commande_previsionnel_mois",
+			"NOLOCK",
+			")",
+			"NEUILLY",
+			"ST AGREVE",
+			"RONCQ",
+			"NEUILLY",
+			"RONCQ",
+			"VALENCE",
+			"ANGERS",
+			"MONTCEAU",
+			"COMBREE",
+			"eol_chiffreaffaire",
+			"eol_carnetcommandeprevisionel",
+			"eol_carnetcommandeferme",
+			"ferme",
+			"eol_commande",
+			"MAROC",
+			"NEUILLY",
+			"ST AGREVE",
+			"RONCQ",
+			"VALENCE",
+			"ANGERS",
+			"MONTCEAU",
+			"COMBREE",
+			"eol_commandeferme",
+			"janvier",
+			"Chiffre d'affaires ",
+			"Commande Global",
+			"=",
+			"dfv",
+			"CHAR(13)",
+			"SET @SQL +='",
+			"FROM",
+			"DELETE FROM",
+			"DELETE",
+			"DEL",
+			"  ",
+			"punctuation.definition.keyword.scss",
+			"enter",
+			"ZOMBIES",
+			"PRISMA_",
+			"PRISMA",
+			"PRISMA_ARTICLES",
+			"PRISMA_DATA",
+			"SELECT COUNT(*)",
+			"INTO ",
+			"SELECT *",
+			"WHERE  ",
+			" SET DEL=1",
+			"SET DEL=1",
+			"WEBOUT",
+			"DELETED",
+			"UPDATE PRISMA_ARTICLES_SOFTOUT SET DEL=1",
+			"DELETED",
+			"FROM",
+			"SELECT DEL",
+			"PRISMA_ARTICLES_EMAIL",
+			"GETDATE",
+			";",
+			"	",
+			" ",
+			" 	",
+			"MC_PRISMA_ARTICLES_ABONNEMENT_EXT",
+			"ws.USERID, ",
+			"SELECT",
+			",",
+			", ",
+			",",
+			"ws.",
+			"usr.",
+			"ws.",
+			"TITRE",
+			"-",
+			"	",
+			"Text",
+			";",
+			"\"",
+			",",
+			"\"",
+			"SOURCE",
+			"RSSCHANNEL",
+			"enclosure",
+			"IMAGE",
+			"jeremy",
+			"fctChangePage",
+			"submit",
+			"jeremy",
+			"fctRecupEC",
+			"jeremy",
+			"alert",
+			"Recherche via Aramis ou Credit Safe en cours",
+			"recherche",
+			"jeremy4",
+			"jeremy",
+			"fctListeSoc",
+			"rechercher",
+			"jeremy",
+			"fctCpyConstructParam",
+			"fctCreerSoc",
+			"fctRecupSocAramis",
+			"fctCheckExist",
+			"fctDetailSoc",
+			"fctListeSocRetour",
+			"fctListeSoc",
+			"fctRecupPer",
+			"fctListeSocRetour",
+			"fctDetailSoc",
+			"nbSte",
+			"fctListeSocRetour",
+			"fctDetailSoc",
+			"fctDetailSocRetour",
+			"fctRecupPer",
+			"fctListeSoc",
+			"CofaceSaveHistoricalClient",
+			"fctHistorise",
+			"fctListeSoc",
+			"fctRecupSocBVPro",
+			"fctRecupSocAramis"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"MC_ZOMBIES",
+			"SELECT COUNT(*) AS OPTIN ",
+			"WHERE  DEL IS NULL AND",
+			" SET DEL=1, MODIFIED_DT=GETDATE()",
+			"PRISMA_ARTICLES_ABONNEMENT_EXT",
+			"ENCLOSURE",
+			"SOURCE",
+			"CLOUD",
+			"TEXTINPUT",
+			"PRISMA_DATA_OPTIN_TELE_TEST",
+			"PRISMA_DATA_OPTIN_PEOPLE_TEST",
+			"PRISMA_DATA_OPTIN_FEMININ_TEST",
+			"PRISMA_DATA_OPTIN_ECO_DECOUVERTE_TEST",
+			"ID, GETDATE() AS CREATED_DT",
+			"",
+			"SYNC_GAP_DATA_OPTIN"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"OPTIN - Ajout champs v1/PRISMA_DATA_OPTIN_SYNC.sql"
+			],
+			[
+				"oprej",
+				"OPTIN - Ajout champs v1/PRISMA_DATA_OPTIN_REJECT.sql"
+			],
+			[
+				"proptrej",
+				"OPTIN - Ajout champs v1/PRISMA_DATA_OPTIN_REJECT.sql"
+			],
+			[
+				"rejec",
+				"Marques/Prock stock MARQUE/PRISMA_DATA_MARQUE_REJECT.sql"
+			],
+			[
+				"prism",
+				"Marques/Prock stock MARQUE/PRISMA_DATA_MARQUE_REJECT.sql"
+			],
+			[
+				"reject",
+				"Marques/Prock stock MARQUE/PRISMA_DATA_MARQUE_REJECT.sql"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/mcharton/Desktop/Docs/perso/dev/menu js/perso-dev-menujs.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 365.0,
+	"status_bar_visible": true
+}

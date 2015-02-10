@@ -1,0 +1,26 @@
+<polymer-element name="hello-world" attributes="name">
+	<template>
+		<style type="text/css">
+			h1 {
+				font-family: sans-serif;
+				text-shadow: 1px 1px 3px #070707;
+			}
+		</style>
+		<ul>
+			<template repeat="{{name in names}}">
+				<li>Hello {{name.name}}</il>
+			</template>
+		</ul>
+	</template>
+	<script>
+		Polymer('hello-world', {
+			ready: function() {
+				this.names = [
+					{name : 'World'},
+					{name : 'Scott'},
+					{name : 'Ben'}
+				]
+			}
+		})
+	</script>
+</polymer-element>

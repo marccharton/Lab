@@ -1,0 +1,47 @@
+@import "shapes";
+@import "colors";
+
+*{padding: 0;margin: 0;}
+
+body {
+	background: $black;
+	font-family: helvetica;
+}
+
+header {
+	background: $dark-accent;
+	height: 200px;
+	color: $black2;
+	line-height: 200px;
+	padding-left: 20px;
+	box-shadow: 2px 2px 30px $black2;
+	margin-bottom: 50px;
+}
+
+.ir {
+  text-indent: -9999px;
+}
+
+.circle {
+	@include circle(200px, $light-accent);
+	display: block;
+	margin: 20px;
+	&:hover { background: $accent; }
+}
+
+.triangle-left{
+	@include triangle(200px, left, $light-accent, $accent);
+	float:left;
+}
+.triangle-right{
+	@include triangle(200px, right, $light-accent, $accent); 
+	float:left;
+}
+.triangle-up{
+	@include triangle(200px, up, $light-accent, $accent); 
+	float:left;
+}
+.triangle-down{
+	@include triangle(200px, down, $light-accent, $accent);
+	float:left; 
+}

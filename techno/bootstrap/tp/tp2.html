@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> Utilisation Bootstrap TP 2</title>
+	<link type="text/css" rel="stylesheet" href="../bootstrap/css/bootstrap.css" />
+	<style>	
+	[class*="span"] {
+	 margin-bottom: 20px;
+	}
+	
+	[class="span3 bloc"] {
+		background-color:#EEE;
+		height: 200px;
+		padding: 5px;
+	}
+	</style>
+</head>
+<body>
+<div class="container">
+<div class="page-header"><h1>Utilisation de Bootstrap Tp 2</h1></div>
+  <div class="row">
+	<header class="span12"></header>
+	<aside class="span3">
+		<div class="row">
+			<div class="span3 bloc">
+				<button class="btn btn-info btn-mini" type="submit">info</button>
+				<button class="btn btn-info btn-small" type="submit">info</button> 
+				<button class="btn btn-info btn-large" type="submit">info</button> 
+			</div>
+			<div class="span3 bloc">
+				<div class="span1">
+					<div class="btn-group">
+						<a class="btn btn-danger" href="#">1</a>
+						<a class="btn btn-info" href="#">2</a>
+						<a class="btn btn-warning" href="#">3</a>
+					</div>
+				</div>
+				<div class="span1 offset1">
+					<div class="btn-group btn-group-vertical">
+						<a class="btn btn-danger" href="#">4</a>
+						<a class="btn btn-info" href="#">5</a>
+						<a class="btn btn-warning" href="#">6</a>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</aside>
+	<section class="span6">
+		<form class="well form-search">
+		  <input type="text" class="input-medium search-query">
+		  <button class="btn btn-primary" type="submit">Recherche <i class="icon-white icon-ok-sign"></i> </button>
+		</form>
+		
+		<div class="row">
+			<div class="span6"> <button class="btn btn-info btn-large btn-block" type="submit">info</button>  </div>
+		</div>
+		<div class="row"> <br>
+		  <div class="span2"> 
+			  <img src="../img/thumbs_photo-tigre2.jpg" class="img-rounded">
+		  </div>
+		  <div class="span2">
+			  <img src="../img/thumbs_photo-tigre3.jpg" class="img-circle">
+		  </div>
+		  <div class="span2">
+			  <img src="../img/thumbs_photo-tigre4.jpg" class="img-polaroid">
+		  </div>
+		</div>
+	</section>
+	<aside class="span3">
+		
+		<div class="span3 bloc">
+			<div class="row">		
+				<div class="span5 btn-toolbar">
+					<div class="btn-group">
+						<button class="btn btn-danger"><i class="icon-align-left"></i></button>
+						<button class="btn btn-info"><i class="icon-align-center"></i></button>
+						<button class="btn btn-warning"><i class="icon-align-right"></i></button>
+						<button class="btn btn-success"><i class="icon-align-right"></i></button>
+					</div>	
+					<br/>
+					<div class="btn-group">
+						<button class="btn btn-danger"><i class="icon-print"></i></button>
+						<button class="btn btn-info"><i class="icon-time"></i></button>
+						<button class="btn btn-warning"><i class="icon-picture"></i></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="span3 bloc">
+			<button class="btn btn-info" type="submit">info</button>
+			<button class="btn btn-success" type="submit">success</button>
+			<button class="btn btn-warning" type="submit">warning</button>
+			<button class="btn btn-danger" type="submit">danger</button>
+			<button class="btn btn-inverse" type="submit">inverse</button>
+		</div>		
+	</aside>  
+	<footer class="span12"></footer>
+  </div>
+</div>
+</body>
+</html>
+
+	
+	

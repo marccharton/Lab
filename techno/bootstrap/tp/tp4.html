@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> Utilisation Bootstrap TP 4</title>
+	<link type="text/css" rel="stylesheet" href="../bootstrap/css/bootstrap.css" />
+	<style>	
+	body {
+		padding-top:60px;
+	}
+	</style>
+</head>
+<body>
+<div class="page-header"><h1>Utilisation de Bootstrap Tp 4</h1></div>
+<nav class="navbar navbar-fixed-top	">
+  <div class="navbar-inner">
+    <div class="container">
+		<ul class="nav">
+			<li><a class="brand" href="#">Mon beau site</a></li>
+			<li> <a href="#">Accueil</a> </li>
+			<li> <a href="#">Liens</a> </li>
+			<li class="divider-vertical"></li>
+			<li> <a href="#">Témoignages</a> </li>
+			<li> <a href="#">Références</a> </li>
+		</ul>
+		<form class="navbar-search pull-right" action="">
+			<input class="search-query" type="text" placeholder="Recherche">
+		</form>
+    </div>
+  </div>
+</nav>
+<br/>
+<div class="container">
+  <div class="row">
+    <div id="content">
+      <div class="span2"> <img src="../img/thumbs_photo-tigre1.jpg" class="img-polaroid" alt="Tigre"> </div>
+      <div class="span2"> <img src="../img/thumbs_photo-tigre2.jpg" class="img-polaroid" alt="Tigre"> </div>
+      <div class="span2"> <img src="../img/thumbs_photo-tigre3.jpg" class="img-polaroid" alt="Tigre"> </div>
+      <div class="span2"> <img src="../img/thumbs_photo-tigre4.jpg" class="img-polaroid" alt="Tigre"> </div>
+      <div class="span2"> <img src="../img/thumbs_photo-tigre5.jpg" class="img-polaroid" alt="Tigre"> </div>
+      <div class="span2"> <img src="../img/thumbs_photo-tigre6.jpg" class="img-polaroid" alt="Tigre"> </div>
+      <div class="span2"> <img src="../img/thumbs_photo-tigre7.jpg" class="img-polaroid" alt="Tigre"> </div>
+      <div class="span2"> <img src="../img/thumbs_photo-tigre8.jpg" class="img-polaroid" alt="Tigre"> </div>
+      <div class="span2"> <img src="../img/thumbs_photo-tigre9.jpg" class="img-polaroid" alt="Tigre"> </div>
+      <div class="span2"> <img src="../img/thumbs_photo-tigre10.jpg" class="img-polaroid" alt="Tigre"> </div>
+      <div class="span2"> <img src="../img/thumbs_photo-tigre11.jpg" class="img-polaroid" alt="Tigre"> </div>
+      <div class="span2"> <img src="../img/thumbs_photo-tigre12.jpg" class="img-polaroid" alt="Tigre"> </div>
+    </div>
+  </div>
+  <div id="page_navigation"> </div>
+</div>
+<script src="../jquery/jquery-1.9.0.js"></script>
+</body>
+<script>
+ 
+var show_per_page = 5; 
+var current_page = 0;
+ 
+function set_display(first, last) {
+    $('#content').children().css('display', 'none');
+    $('#content').children().slice(first, last).css('display', 'block');
+}
+ 
+function previous(){
+    if($('.active').prev('.page_link').length) go_to_page(current_page - 1);
+}
+ 
+function next(){
+    if($('.active').next('.page_link').length) go_to_page(current_page + 1);
+}
+ 
+function go_to_page(page_num){
+    current_page = page_num;
+    start_from = current_page * show_per_page;
+    end_on = start_from + show_per_page;
+    set_display(start_from, end_on);
+    $('.active').removeClass('active');
+    $('#id' + page_num).addClass('active');
+}  
+ 
+$(document).ready(function(){
+  var number_of_pages = Math.ceil($('#content').children().size() / show_per_page);
+   
+  var nav = '<div class="pagination">'
+  nav += '<ul>';
+  nav += '<li class="previous_link">';
+  nav += '<a href="javascript:previous();"><<</a>';
+  nav += '';
+  var i = -1;
+  while(number_of_pages > ++i){
+    nav += '<li class="page_link'
+    if(!i) nav += ' active';
+    nav += '" id="id' + i +'">';
+    nav += '<a href="javascript:go_to_page(' + i +')">'+ (i + 1) +'</a>';
+    nav += '';
+  }
+  nav += '<li class="next_link" >';
+  nav += '<a href="javascript:next();">>></a>';
+  nav += '';
+  nav += '</ul>';
+  nav += '</div>';
+ 
+  $('#page_navigation').html(nav);
+  set_display(0, show_per_page);
+});
+</script>
+
+
+</body>
+</html>
+
+	
+	

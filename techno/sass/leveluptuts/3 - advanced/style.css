@@ -1,0 +1,160 @@
+/* ************************************
+************* Variables ***************/
+/* ************************************
+************** Mixins *****************/
+/* ************************************
+*************** Each *****************/
+.twitter {
+  background: url("img/twitter.png") no-repeat;
+  -webkit-background-size: 65px 65px;
+  -o-background-size: 65px 65px;
+  background-size: 65px 65px;
+  text-indent: -9999px; }
+
+.facebook {
+  background: url("img/facebook.png") no-repeat;
+  -webkit-background-size: 65px 65px;
+  -o-background-size: 65px 65px;
+  background-size: 65px 65px;
+  text-indent: -9999px; }
+
+.youtube {
+  background: url("img/youtube.png") no-repeat;
+  -webkit-background-size: 65px 65px;
+  -o-background-size: 65px 65px;
+  background-size: 65px 65px;
+  text-indent: -9999px; }
+
+.rss {
+  background: url("img/rss.png") no-repeat;
+  -webkit-background-size: 65px 65px;
+  -o-background-size: 65px 65px;
+  background-size: 65px 65px;
+  text-indent: -9999px; }
+
+ul.social-links li {
+  list-style-type: none; }
+  ul.social-links li a {
+    display: block;
+    float: left;
+    width: 65px;
+    height: 65px; }
+
+.one {
+  background: black;
+  height: 70px; }
+
+.two {
+  background: #141414;
+  height: 80px; }
+
+.three {
+  background: #1e1e1e;
+  height: 90px; }
+
+.four {
+  background: #282828;
+  height: 100px; }
+
+.five {
+  background: #323232;
+  height: 110px; }
+
+.six {
+  background: #3c3c3c;
+  height: 120px; }
+
+.seven {
+  background: #464646;
+  height: 130px; }
+
+.eight {
+  background: #505050;
+  height: 140px; }
+
+.nine {
+  background: #5a5a5a;
+  height: 150px; }
+
+.ten {
+  background: #646464;
+  height: 160px; }
+
+.eleven {
+  background: #6e6e6e;
+  height: 170px; }
+
+/* ************************************
+*************** Functions *****************/
+.one {
+  background: rgba(255, 0, 0, 0.3);
+  background: rgba(0, 0, 255, 0.5); }
+
+.one {
+  width: 44.44444%; }
+
+.two {
+  width: 44.44444%; }
+
+/* ************************************
+*************** Style *****************/
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #DDD;
+  color: #333;
+  font-family: helvetica, sans-serif;
+  color: #DDD; }
+
+header {
+  background: #333;
+  height: 150px;
+  line-height: 70px;
+  color: #4747a0;
+  padding: 10px;
+  margin: 0 0 25px 0; }
+  header h1 {
+    font-size: 3em; }
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
+
+section {
+  width: 900px;
+  margin: 0 auto;
+  text-align: justify; }
+  section a {
+    color: #4747a0;
+    font-weight: bold; }
+  section p {
+    margin: 10px 0;
+    overflow: hidden;
+    width: 100%; }
+  section .one {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    float: left; }
+    section .one a {
+      color: #987800; }
+  section .two {
+    border: darkgray 5px solid;
+    float: right; }
+
+p {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background: #FFF;
+  padding: 20px; }
+
+/*# sourceMappingURL=style.css.map */

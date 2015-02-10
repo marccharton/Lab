@@ -1,0 +1,67 @@
+/* ************************************
+************* Variables ***************/
+/* ************************************
+************** Mixins *****************/
+/* ************************************
+*************** Style *****************/
+* {
+  margin: 0;
+  padding: 0; }
+
+*, *:after, *:before {
+  box-sizing: border-box; }
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
+
+body {
+  background: #DDD;
+  color: #333;
+  font-family: helvetica, sans-serif;
+  color: #333; }
+
+header {
+  font-size: 1.5em;
+  font-weight: lighter;
+  background: #333;
+  height: 200px;
+  line-height: 200px;
+  color: #DDD;
+  padding: 10px;
+  margin: 0 0 25px 0;
+  box-shadow: 0 0 10px #333; }
+
+.main {
+  width: 800px;
+  font-size: 17px;
+  line-height: 25px;
+  -ms-text-align: justify;
+  text-align: justify;
+  margin: 0 auto;
+  box-shadow: 0 0 5px #333;
+  border-radius: 5px;
+  background: #eee;
+  padding: 40px; }
+  .main h1 {
+    margin: 20px;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #4747a0;
+    font-weight: lighter;
+    background: #333; }
+
+p {
+  margin: 20px; }
+
+.bold {
+  font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
