@@ -1,0 +1,42 @@
+* {
+	margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background: #EEE;
+	font-family: helvetica, sans-serif;
+}
+
+header {
+	height: 100px;	line-height: 100px;
+	background: #474747;
+	-webkit-box-shadow: 0 0 10px #808080;
+	        box-shadow: 0 0 10px #808080;
+	color: #EEE;
+	margin-bottom: 20px;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+ul.tasks-container {
+	list-style-type: none;
+	li.task-item {
+		margin:10px;
+	}
+}
+
+
+.task-done {
+	background: #AEF;
+}
+
+@media screen and (max-width: 900px) {
+	.container {
+		width:100%;
+		padding: 0 10px 20px 10px;
+	}
+}

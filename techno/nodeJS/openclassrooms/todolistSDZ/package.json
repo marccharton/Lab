@@ -1,0 +1,12 @@
+{
+    "name": "coop-todolist",
+    "version": "0.1.0",
+    "dependencies": {
+        "express": "~4.11.0",
+        "ejs": "~2.1.4",
+        "ent": "~0.1.0",
+        "socket.io": "~1.3.3"
+    },
+    "author": "Kram47 <kramoogle@gmail.com>",
+    "description": "Cooperative Task list Manager just to try nodejs - Tutorial on Openclassrooms (http://openclassrooms.com/courses/des-applications-ultra-rapides-avec-node-js/socket-io-passez-au-temps-reel)"
+}

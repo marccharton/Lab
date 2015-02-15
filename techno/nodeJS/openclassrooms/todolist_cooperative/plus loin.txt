@@ -1,0 +1,14 @@
+## Allez plus loin !
+
+Ma petite todolist est très basique. Vous pouvez lui ajouter de nombreuses fonctionnalités :  
+
+* Modification des noms des tâches
+* Réagencement des tâches entre elles
+* Exportation CSV
+* Attribution d'une priorité et d'une date limite
+* Persistence de la todolist (stockage dans une base de données ou une base NoSQL)
+* Partage d'une todolist entre plusieurs personnes
+* Synchronisation de la todolist en temps réel entre les personnes sans avoir besoin de recharger la page
+* Certaines de ces fonctionnalités sont plus faciles à réaliser que d'autres. Pour d'autres, il vous faudra découvrir et utiliser de nouveaux modules.
+
+Vous avez de quoi vous amuser pendant un bon petit moment, bon courage ! :)  

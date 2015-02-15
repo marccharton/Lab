@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		},
+		{
+			"path": "../socket.io"
+		},
+		{
+			"path": "../express"
+		}
+	]
+}

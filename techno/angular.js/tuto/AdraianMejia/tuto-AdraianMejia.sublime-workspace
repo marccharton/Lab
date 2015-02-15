@@ -16,18 +16,18 @@
 	"buffers":
 	[
 		{
-			"file": "src/index.html",
+			"file": "/C/wamp/www/sites/Lab/techno/nodeJS/socket.io/index.html",
 			"settings":
 			{
-				"buffer_size": 708,
+				"buffer_size": 1199,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/app.js",
+			"file": "/C/wamp/www/sites/Lab/techno/nodeJS/socket.io/server.js",
 			"settings":
 			{
-				"buffer_size": 648,
+				"buffer_size": 1330,
 				"line_ending": "Windows"
 			}
 		}
@@ -200,7 +200,6 @@
 	},
 	"file_history":
 	[
-		"/C/Users/mcharton/Desktop/Docs/perso/dev/Lab/techno/angular.js/tuto/AdraianMejia/src/app.js",
 		"/C/wamp/www/sites/Lab/techno/nodeJS/socket.io/server.js",
 		"/C/Users/kram 47/Desktop/{EPITECH}/archives/EIP/mandroworld/mandroclient/MandroClient/protobuf/generate.py",
 		"/C/Users/kram 47/Desktop/{EPITECH}/archives/EIP/svn/www/contact.html",
@@ -327,7 +326,8 @@
 		"/D/projets/Entreprise Application/chupachupa/chupachupa-desktopapp/Chupachupa-DesktopApp/bin/Debug/categories",
 		"/C/Users/kram 47/Documents/__VSDeploymentFailure__.txt",
 		"/D/projets/Entreprise Application/chupachupa/Common/BDD/Script.SQL",
-		"/D/projets/Entreprise Application/chupachupa/chupachupa-desktopapp/Chupachupa-DesktopApp/bin/Debug/account.xml"
+		"/D/projets/Entreprise Application/chupachupa/chupachupa-desktopapp/Chupachupa-DesktopApp/bin/Debug/account.xml",
+		"/D/projets/_Epitech/dotNet/wmp/MyMiniVLC/library.xml"
 	],
 	"find":
 	{
@@ -440,30 +440,31 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/index.html",
+					"file": "/C/wamp/www/sites/Lab/techno/nodeJS/socket.io/index.html",
 					"settings":
 					{
-						"buffer_size": 708,
+						"buffer_size": 1199,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								700,
-								700
+								721,
+								721
 							]
 						],
 						"settings":
 						{
+							"_anf_new": "",
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -474,25 +475,25 @@
 				},
 				{
 					"buffer": 1,
-					"file": "src/app.js",
+					"file": "/C/wamp/www/sites/Lab/techno/nodeJS/socket.io/server.js",
 					"settings":
 					{
-						"buffer_size": 648,
+						"buffer_size": 1330,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								221,
-								221
+								455,
+								455
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -596,6 +597,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 303.0,
+	"side_bar_width": 163.0,
 	"status_bar_visible": true
 }

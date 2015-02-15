@@ -1,0 +1,94 @@
+* {padding: 0;margin: 0;box-sizing: border-box}
+
+
+body {
+	font-family: helvetica;
+}
+
+header {
+	background:  #404060;
+	color:       #EEE;
+	height:      100px;
+	line-height: 30px;
+	padding-top: 20px;
+	margin-bottom : 30px;
+	-webkit-box-shadow: 0 0 5px #444;
+	        box-shadow: 0 0 5px #444;
+}
+
+.profil-container {
+	font-style: italic;	
+	margin-bottom : 10px;
+}
+
+	.profil-container #login {
+		color: #4596B9;
+		font-weight: bold;
+	}
+
+.container {
+	width:  	900px;
+	margin: 	auto;
+}
+
+.chat-container {
+	height: 400px;
+	overflow: scroll;
+}
+
+/* Chat */
+.message-container {
+	background:  #9EE2FF;
+	margin: 4px 0;
+	padding: 5px 10px;
+}
+
+.me-message { text-align: right; background: #87E881;}
+.message-pseudo { font-weight: bold;}
+.message-text {	font-style:  italic;}
+
+
+.notification-container {
+	background:  #EFE86A;
+	margin: 4px 0;
+	padding: 1px 0;
+	font-style:  italic;
+}
+
+
+/* Envoie d'un message */
+.send-message-container {
+	position: fixed;
+	bottom:0px;
+	width: 900px;
+}
+
+	#messageText {
+		width: 100%; max-width: 100%;
+		height: 100px; max-height: 100px;
+		padding: 5px;
+		border: 1px solid #EEE;
+	}
+
+	#messageButton {
+		width: 100%; max-width: 100%;
+		height: 50px; max-height: 50px;
+		padding: 5px;	
+		background: #EEE;
+		border : 0;
+	}
+	#messageButton:hover  { background: #E9E9E9; }
+	#messageButton:active {	background: #DDE;    }
+
+
+
+@media screen and (max-width: 900px) {
+	.container {
+		width:100%;
+	}
+	.send-message-container {
+		position: fixed;
+		bottom:0px;
+		width: 100%;
+	}
+}
