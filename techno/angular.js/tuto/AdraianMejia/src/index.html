@@ -5,13 +5,19 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.min.js"></script>
 </head>
-<body ng-controller="TodoController">
+<body data-ng-controller="TodoController">
   <ul>
-    <li ng-repeat="todo in todos">
+    <li data-ng-repeat="todo in todos">
       <input type="checkbox" ng-model="todo.completed">
       {{ todo.title }}
     </li>
   </ul>
+
+  <hello>Element</hello> Element
+  <div data-hello>Attribute</div> data-Attribute
+  <div hello>Attribute</div> Attribute
+  <!-- directive: hello --> Comment
+  <p class="hello"></p> Class
 
   <script type="text/ng-template" id="/todos.html">
     <ul>
