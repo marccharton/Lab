@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Todolist</title>
+    </head>
+ 
+    <body>
+        <h1>Todolist</h1>
+		<ul id="todolist">
+        
+        </ul>
+        <input type="text" name="todo" id="todo"/>
+		<button id="add">Ajouter</button>
+
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+            var socket = io.connect('http://localhost:8080');
+			
+			var supprimer = function(){
+				socket.emit('delete', $(this).attr("data-index"));
+			}
+			
+			socket.on('todolist',function(data){
+				$.each(data.todolist,function(key,value){
+					$("#todolist").append('<li id="todo-'+key+'"><a href="#" class="delete" data-index="'+key+'">X</a>'+value+'</li>');
+				$('.delete').on("click",supprimer);
+				});
+			});
+			
+            socket.on('add', function(data) {
+                $("#todolist").append('<li id="todo-'+data.id+'"><a href="#" class="delete" data-index="'+data.id+'">X</a>'+data.todo+'</li>');
+	
+				$('.delete').on("click",supprimer);
+            });
+			
+            socket.on('delete', function(data) {				
+                $("#todo-"+data.id).remove();
+            });
+
+            $('#add').on("click",function () {
+                socket.emit('add', $("#todo").val());
+            })
+        </script>
+    </body>
+</html>

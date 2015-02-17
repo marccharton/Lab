@@ -1,0 +1,12 @@
+{
+    "name": "todolist",
+    "version": "0.1.0",
+    "dependencies": {
+        "express": "~4.11.0",
+        "ejs": "~2.1.4",
+        "ent": "~0.1.0",
+        "socket.io": "~1.2.1"
+    },
+    "author": "Me",
+    "description": "todo list management FTW"
+}

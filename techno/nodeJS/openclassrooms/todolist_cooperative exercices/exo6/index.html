@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Ma todolist</title>
+        <style>
+            a {text-decoration: none; color: black;}
+        </style>
+    </head>
+
+    <body>
+        <h1>Ma todolist</h1>
+        <ul id="tasks"></ul>
+
+        <form action="/" method="post" id="add_task">
+            <p>
+                <label for="newtodo">Que dois-je faire ?</label>
+                <input type="text" name="newtodo" id="newtodo" autofocus />
+                <input type="submit" value="Ajouter tache"/>
+            </p>
+        </form>
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+            // Connexion à socket.io
+            var socket = io.connect('http://localhost:8000');
+            
+            socket.emit('new_user');
+
+            //on reinitialise puis affiche toutes les taches
+            socket.on('init', function(data) {
+                $('#tasks').empty();
+                for (var i = 0; i < data.length; i++) {
+                    insertTask(i, data[i]);
+                }
+            });
+
+            //affichage de la nouvelle tache a la suite des autres
+            socket.on('add_task', function(data) {
+                insertTask(data.id, data.task)
+            });
+
+            //envoi du signal au serveur pour la suppression d'une tache
+            $('#tasks').on('click', '.delete', function (e) {
+                socket.emit('delete_task', $(this).attr('id'));
+                e.preventDefault();
+                return false;
+            });
+
+            //envoi du signal au serveur pour l'ajour d'une tache
+            $('#add_task').submit(function () {
+                var message = $('#newtodo').val();
+                socket.emit('new_task', message); 
+                $('#newtodo').val('').focus(); 
+                return false;
+            });
+
+            function insertTask(id, task) {
+                $('#tasks').append('<li><a href="/" id="'+ id +'" class="delete">✘</a>' + task + '</li>');
+            }
+        </script>
+    </body>
+</html>
