@@ -15,30 +15,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/app.js",
-			"settings":
-			{
-				"buffer_size": 837,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/index.html",
-			"settings":
-			{
-				"buffer_size": 906,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/style.css",
-			"settings":
-			{
-				"buffer_size": 27,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -208,8 +184,11 @@
 	},
 	"file_history":
 	[
-		"/C/Users/mcharton/Desktop/Docs/perso/dev/Lab/techno/angular.js/tuto/AdraianMejia/tuto-AdraianMejia.sublime-project",
 		"/C/Users/mcharton/Desktop/Docs/perso/dev/Lab/techno/angular.js/tuto/AdraianMejia/src/style.css",
+		"/C/Users/mcharton/Desktop/Docs/perso/dev/Lab/techno/angular.js/tuto/AdraianMejia/src/app.js",
+		"/C/Users/mcharton/Desktop/Docs/perso/dev/Lab/techno/angular.js/tuto/AdraianMejia/src/index.html",
+		"/C/Users/mcharton/Desktop/Docs/perso/dev/Lab/techno/angular.js/tuto/AdraianMejia/src/todos.html",
+		"/C/Users/mcharton/Desktop/Docs/perso/dev/Lab/techno/angular.js/tuto/AdraianMejia/tuto-AdraianMejia.sublime-project",
 		"/C/wamp/www/sites/Lab/techno/nodeJS/socket.io/index.html",
 		"/C/wamp/www/sites/Lab/techno/nodeJS/socket.io/server.js",
 		"/C/Users/kram 47/Desktop/{EPITECH}/archives/EIP/mandroworld/mandroclient/MandroClient/protobuf/generate.py",
@@ -332,10 +311,7 @@
 		"/D/projets/Entreprise Application/chupachupa/chupachupa-desktopapp/Chupachupa-DesktopApp/bin/Debug/categories.xml",
 		"/D/projets/Entreprise Application/code Eric/WebserviceCaller.cs",
 		"/D/projets/Entreprise Application/code Eric/JSONObjects.cs",
-		"/C/Users/kram 47/Desktop/UnitTestPrivateService.cs",
-		"/D/projets/Entreprise Application/chupachupa/chupachupa-desktopapp/Chupachupa-DesktopApp/bin/Debug/items.data",
-		"/D/projets/Entreprise Application/chupachupa/chupachupa-desktopapp/Chupachupa-DesktopApp/bin/Debug/categories",
-		"/C/Users/kram 47/Documents/__VSDeploymentFailure__.txt"
+		"/C/Users/kram 47/Desktop/UnitTestPrivateService.cs"
 	],
 	"find":
 	{
@@ -353,6 +329,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h1",
+			"title",
 			"TodoController",
 			"completed",
 			"task",
@@ -448,94 +426,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/app.js",
-					"settings":
-					{
-						"buffer_size": 837,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								221,
-								221
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/index.html",
-					"settings":
-					{
-						"buffer_size": 906,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								504,
-								504
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/style.css",
-					"settings":
-					{
-						"buffer_size": 27,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

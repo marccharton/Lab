@@ -11,11 +11,11 @@ app.config(['$routeProvider', function ($routeProvider) {
 
 app.controller('TodoController', ['$scope', function ($scope) {
   $scope.todos = [
-    { title: 'Learn Javascript', completed: true },
-    { title: 'Learn Angular.js', completed: false },
-    { title: 'Love this tutorial', completed: true },
-    { title: 'Learn Javascript design patterns', completed: false },
-    { title: 'Build Node.js backend', completed: false },
+    { name: 'Learn Javascript', completed: true },
+    { name: 'Learn Angular.js', completed: false },
+    { name: 'Love this tutorial', completed: true },
+    { name: 'Learn Javascript design patterns', completed: false },
+    { name: 'Build Node.js backend', completed: false },
   ];
 }]);
 

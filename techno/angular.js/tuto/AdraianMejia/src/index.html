@@ -2,27 +2,55 @@
 <html ng-app="app">
 <head>
   <title>Tuto Adrian Mejia</title>
+  <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.min.js"></script>
 </head>
-<body data-ng-controller="TodoController">
-  <ul>
-    <li data-ng-repeat="todo in todos">
-      <input type="checkbox" ng-model="todo.completed">
-      {{ todo.title }}
-    </li>
-  </ul>
+<body>
+  
+  <header>
+    <div class="container">
+      <h1>AngularJS</h1>
+    </div>
+  </header>
 
-  <hello>Element</hello> Element
-  <div data-hello>Attribute</div> data-Attribute
-  <div hello>Attribute</div> Attribute
-  <!-- directive: hello --> Comment
-  <p class="hello"></p> Class
+  <div class="container">
+    
+    <section class="tuto-part">
+      <h3>AngularJS Main Components </h3>
+      
+      <hello>Element</hello> Element
+      <div data-hello>Attribute</div> data-Attribute
+      <div hello>Attribute</div> Attribute
+      <!-- directive: hello --> Comment
+      <p class="hello"></p> Class
+    </section>
+    
+    <section class="tuto-part">
+      <h3>AngularJS Controllers </h3>
+  
+      <ul ng-controller="TodoController">
+        <li ng-repeat="todo in todos">
+          <input type="checkbox" ng-model="todo.completed">        
+          {{todo.name}}
+        </li>
+      </ul>
+    </section>
+    
+    
+    <section class="tuto-part">
+      <h3>AngularJS Templates </h3>
+      
+      <div class="ng-view"></div>
+    </section>
+  </div>
 
+  <!-- Template -->
   <script type="text/ng-template" id="/todos.html">
     <ul>
       <li ng-repeat="todo in todos">
         <input type="checkbox" ng-model="todo.completed">        
+        {{todo.name}}
       </li>
     </ul>
   </script>
