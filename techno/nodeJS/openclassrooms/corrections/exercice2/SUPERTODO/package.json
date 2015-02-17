@@ -1,0 +1,12 @@
+{
+    "name": "super-chat",
+    "version": "0.1.0",
+    "dependencies": {
+        "express": "~3.3.4",
+        "socket.io": "~1.2.1",
+        "ent": "~0.1.0",
+        "ejs": "~0.8.3"
+    },
+    "author": "Emmanuel <emmanuel_cousin@hotmail.fr>",
+    "description": "LiveChat powered by Node.js with socket.io"
+}

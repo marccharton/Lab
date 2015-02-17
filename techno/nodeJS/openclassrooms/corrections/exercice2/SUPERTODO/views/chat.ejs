@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Super Chat temps réel !</title>
+        <style>
+            #zone_chat strong {
+                color: white;
+                background-color: black;
+                padding: 2px;
+            }
+
+            audio#notification {
+                display:none;
+            }
+        </style>
+    </head>
+ 
+    <body>
+        <h1>Exercice</h1>
+
+        <form action="/" method="post" id="formulaire_chat">
+            <input type="text" name="message" id="message" placeholder="Votre message..." size="50" autofocus />
+            <input type="submit" id="envoi_message" value="Envoyer"/>
+            <input type="reset"/>
+            <input type="image"/>
+        </form>
+        <button class="button" id="changePseudo" >Changer le pseudo</button>
+        <button class="button" id="disconnect" >Déconnexion</button>
+
+        <audio controls="controls" preload="auto" id="notification">
+            <source src="http://www.mediacollege.com/internet/web-development/audio/mysound.ogg" type="audio/ogg">
+        </audio>
+        
+
+        <section id="zone_chat">
+            <!-- les messages sont ici -->
+        </section>
+
+        <h1>Ma todolist</h1>
+
+        <form id="formulaire_todo" name="formulaire_todo" action="/" method="post">
+            <p>
+                <label for="newItem">Que dois-je faire ?</label>
+                <input type="text" name="newItem" id="newItem" autofocus />
+                <input type="submit" />
+            </p>
+        </form>
+
+        <section id="zone_todo">
+
+            <ol>
+            <!-- les items de la todolist sont ici -->
+            </ol>
+
+        </section>
+
+        <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+
+            // Connexion à socket.io
+            var socket = io.connect('http://localhost:8080');
+
+            // On demande le pseudo, on l'envoie au serveur et on l'affiche dans le titre
+            var pseudo = prompt('Quel est votre pseudo ?');
+            socket.emit('nouveau_client', pseudo);
+            document.title = pseudo + ' - Super Chat';
+
+            socket.on('history', function (data){
+                for (var key in data.chat_history) {
+                    insereMessage(data.chat_history[key]);
+                }
+                for (var key in data.items_history) {
+                    insereItem(data.items_history[key]);
+                }
+            })
+
+            // Quand on reçoit un message, on l'insère dans la page
+            socket.on('message', function (message) {
+                insereMessage(message);
+                emitNotificationsound();
+            })
+
+            // Quand on reçoit un todo, on l'insère dans la page
+            socket.on('newItem', function (new_item) {
+                insereItem(new_item);
+                //emitNotificationsound();
+            })
+
+            socket.on('removeItem', function (item_id) {
+                removeItem(item_id);
+            })
+
+            // Quand un nouveau client se connecte, on affiche l'information
+            socket.on('nouveau_client', function (pseudo) {
+                insereNouveauClient(pseudo);
+            })
+
+            socket.on('nouveau_pseudo', function (data) {
+                inserePseudoChange(data.ancien_pseudo, data.nouveau_pseudo);
+                // Chaque fois qu'un serveur reçoit un message, on l'affiche sur notre page
+            })
+
+            socket.on('is_typing', function (pseudo) {
+                displayUserIsTyping(pseudo);
+            })
+
+            // Lorsqu'on envoie le formulaire, on transmet le message et on l'affiche sur la page
+            $('#formulaire_chat').submit(function () {
+                var message = $('#message').val();
+                socket.emit('message', message); // Transmet le message aux autres
+                $('#message').val('').focus(); // Vide le formulaire d'entrée
+                return false; 
+            });
+
+            // Lorsqu'on envoie le formulaire, on transmet l'item et on l'affiche sur la page
+            $('#formulaire_todo').submit(function () {
+                var new_item = $('#newItem').val();
+                socket.emit('newItem', new_item);
+                $('#newItem').val('').focus();
+                return false;
+            });
+
+            $('#disconnect').click(function(){
+                message_disconnect = ' a quitté le chat';
+                socket.emit('message', message_disconnect); // On informe le serveur de la déconnexion
+                socket.disconnect();
+            });
+
+            $('#changePseudo').click(function(){
+                var nouveau_pseudo = prompt('Quel est votre nouveau pseudo ?');
+                var ancien_pseudo = pseudo;
+                pseudo = nouveau_pseudo; // On remplace l'ancien pseudo par le nouveau
+                socket.emit('nouveau_pseudo', nouveau_pseudo); // On informe le serveur du changement
+                inserePseudoChange(ancien_pseudo, nouveau_pseudo); // On affiche le changement de pseudo aussi dans notre page
+                document.title = nouveau_pseudo + ' - Super Chat'; // On renomme également le titre
+            });
+
+            $('#message').keypress(function(){
+                socket.emit('is_typing', pseudo);
+            });
+
+            // Actions appelées par socket.io
+
+            function insereMessage(message) {
+                $('p#is_typing').remove();
+                $('#zone_chat').prepend('<p><strong>' + message.author + '</strong> ' + message.text + '</p>');
+            }
+
+            function insereItem(item) {
+                $('#zone_todo ol').prepend(
+                    '<li class="item"><button id="'+ item.id +'" onclick="deleteMyItem(\'' + item.id + '\');">✘</button>' + item.text + '</li>'
+                );
+            }
+
+            function deleteMyItem(item_id) {
+                socket.emit('removeItem', item_id);
+            }
+            
+            function inserePseudoChange(ancien_pseudo, nouveau_pseudo) {
+                $('#zone_chat').prepend('<p><em>' + ancien_pseudo + ' s\'appelle maintenant ' + nouveau_pseudo + '</em></p>');
+            }
+
+            function insereNouveauClient(pseudo) {
+                $('#zone_chat').prepend('<p><em>' + pseudo + ' a rejoint le Chat !</em></p>');
+            }
+
+            function emitNotificationsound() {
+                $('#notification').trigger('pause').prop("currentTime",0).trigger('play');
+            }
+
+            function displayUserIsTyping(pseudo) {
+                $('p#is_typing').remove(); // On fait en sorte que le message ne s'affiche qu'une seule fois
+                $('#zone_chat').prepend('<p id="is_typing"><em>' + pseudo + ' est entrain d\'écrire...</em></p>');
+                setTimeout(function(){$('p#is_typing').remove();}, 3000);
+            }
+
+            function removeItem(item_id) {
+                $('button#' + item_id).parent().remove();
+            }
+                
+        </script>
+    </body>
+</html>
