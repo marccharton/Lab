@@ -1,0 +1,56 @@
+*{margin: 0;padding: 0;}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+header {
+	height: 150px;
+	line-height: 150px;
+	background: #474747;
+	color: #EEE;
+	margin-bottom: 20px;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+a {
+  color: #00B7FF;
+}
+
+ul li {
+	list-style-type: none;
+	margin: 10px 0;
+}
+
+.button {
+	width: 70px;
+	height: 30px;
+}
+
+.button-edit {
+	background: #4785A0;
+	color: #EEE;
+	border: 0;
+}
+
+.button-remove {
+	background: #A04747;
+	color: #EEE;
+	border: 0;
+}
+
+.button-update {
+	background: #47A047;
+	color: #EEE;
+	border: 0;
+}
+
+.button-cancel {
+	background: #A04747;
+	color: #EEE;
+	border: 0;
+}

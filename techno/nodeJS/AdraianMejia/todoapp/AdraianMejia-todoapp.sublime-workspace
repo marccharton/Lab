@@ -1,0 +1,829 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"req",
+				"require"
+			],
+			[
+				"To",
+				"TodoSchema"
+			],
+			[
+				"mo",
+				"mongoose"
+			],
+			[
+				"tas",
+				"taskName"
+			],
+			[
+				"task",
+				"taskList"
+			],
+			[
+				"mess",
+				"messageBalise"
+			],
+			[
+				"cha",
+				"chat_container"
+			],
+			[
+				"chat",
+				"chat_container"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"web",
+				"PRISMA_ARTICLES_WEBSTOP"
+			],
+			[
+				"abon",
+				"PRISMA_ARTICLES_ABONNEMENT_EXT"
+			],
+			[
+				"WES",
+				"PRISMA_DATA_WEBSERVICE"
+			],
+			[
+				"ZOM",
+				"ZOMBIES"
+			],
+			[
+				"MARQUE",
+				"MARQUEID"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1739,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/index.ejs",
+			"settings":
+			{
+				"buffer_size": 2173,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 352,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"comme",
+				"Snippet: Comment - HTML comment"
+			],
+			[
+				"commen",
+				"Snippet: Comment - HTML comment"
+			],
+			[
+				"snip",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssc",
+				"Set Syntax: C#"
+			],
+			[
+				"ssxml",
+				"Set Syntax: XML"
+			],
+			[
+				"ssxm",
+				"Set Syntax: XML"
+			],
+			[
+				"sss",
+				"Set Syntax: SQL"
+			],
+			[
+				"ssjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"sssq",
+				"Set Syntax: SQL"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"brpa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"rempa",
+				"Package Control: Remove Package"
+			],
+			[
+				"remp",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inser",
+				"Insert File Path"
+			],
+			[
+				"ins",
+				"Insert Directory Relative to Project"
+			],
+			[
+				"inserf",
+				"Insert File Name"
+			],
+			[
+				"filedr",
+				"Copy File Directory"
+			],
+			[
+				"remoc",
+				"Package Control: Remove Package"
+			],
+			[
+				"pre",
+				"Preferences: Settings - User"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"them",
+				"Themr: List themes"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"ssx",
+				"Set Syntax: XML"
+			],
+			[
+				"dele",
+				"ANF: Delete File"
+			],
+			[
+				"kbd",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"kbu",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"name",
+				"ANF: Rename File"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"ssj",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssxa",
+				"Set Syntax: XAML"
+			],
+			[
+				"set syntax: sq",
+				"Set Syntax: SQL (Rails)"
+			],
+			[
+				"sssql",
+				"Set Syntax: SQL"
+			],
+			[
+				"sstext",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"expre",
+				"Set Syntax: Regular Expression"
+			],
+			[
+				"ssjav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"ss x",
+				"Set Syntax: XSL"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"person",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"perso",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"pers",
+				"Preferences: Settings - Default"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 344.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/sites/Lab/techno/nodeJS/AdraianMejia/todoapp/public/javascripts/script.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/AdraianMejia/todoapp/routes/todos.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/AdraianMejia/todoapp/public/stylesheets/style.css",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/AdraianMejia/todoapp/package.json",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/AdraianMejia/todoapp/views/index.ejs",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/AdraianMejia/todoapp/models/Todo.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/AdraianMejia/todoapp/routes/index.js",
+		"/C/wamp/www/sites/Lab/techno/angular.js/tuto/AdraianMejia/src/index.html",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/AdraianMejia/index.html",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/AdraianMejia/todoapp/app.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/AdraianMejia/server.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/AdraianMejia/package.json",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/super-chat v2/package.json",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/AdraianMejia/pacakge.json",
+		"/C/Users/kram 47/Desktop/mongod.cfg",
+		"/C/Program Files/MongoDB 2.6 Standard/log/mongo.log",
+		"/C/wamp/www/sites/Lab/techno/angular.js/tuto/AdraianMejia/src/app.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/super-chat v2/MYapp.js",
+		"/C/wamp/www/sites/Lab/techno/angular.js/todolist_cooperative/openclassrooms-todolist_coopérative.sublime-project",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/todolistSDZ/package.json",
+		"/C/Users/kram 47/Documents/gitignore_global.txt",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/todolistSDZ/js/app.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/todolist_cooperative/js/app.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/todolist_cooperative/server/server.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/todolist_cooperative/views/todolist.ejs",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/todolistSDZ/server/server.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/todolist_cooperative/sass/main.scss",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/todolist_cooperative/package.json",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/todolist_cooperative/css/main.css",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/todolist_coopérative/openclassrooms-todolist_coopérative.sublime-project",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/todolist_coopérative/watch.bat",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/todolist_coopérative/sass/main.scss",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/todolist_coopérative/css/main.scss",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/todolist_coopérative/css/main.css",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/todolist_coopérative/views/giveme.ejs",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/todolist_coopérative/server.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/todolist_coopérative/openclassrooms-todolist_coopérative.sublime-workspace",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/todolist_coopérative/package.json",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/todolist_coopérative/npm-debug.log",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/todolist_coopérative/test",
+		"/C/Users/kram 47/AppData/Roaming/Sublime Text 2/Packages/FileHeader/README.rst",
+		"/C/Users/kram 47/AppData/Roaming/Sublime Text 2/Packages/FileHeader/package-metadata.json",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/super-chat v2/openclassrooms-nodeJS-superChat.sublime-project",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/super-chat v2/scripts/app.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/super-chat v2/index.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/super-chat v2/app.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/super-chat v2/server/index.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/openclassrooms/super-chat v2/server/server.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/super-chat/package.json",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/super-chat/openclassrooms-nodeJS-superChat.sublime-project",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/super-chat/main.css",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/super-chat/index.html",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/super-chat/server/server.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/super-chat/index.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/super-chat/app.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/super-chat/server.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/developpez.com/1-decouverte/index.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/developpez.com/1-decouverte/server.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/developpez.com/1-decouverte/router.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/socket.io/openclassrooms-nodeJS-socket.io.sublime-project",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/socket.io/index.html",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/socket.io/server.js",
+		"/C/Users/mcharton/Desktop/Docs/perso/dev/Lab/techno/nodeJS/socket.io/package.json",
+		"/C/Users/mcharton/Desktop/Docs/perso/dev/Lab/techno/nodeJS/socket.io/openclassrooms-nodeJS-socket.io.sublime-project",
+		"/Y/Projets/Eolane/Entrant Eolane/CRM_CMD_FACT_CLIE (3).csv",
+		"/C/Users/mcharton/Desktop/Projets/eolane/SSIS/Fichier_Rejet/Nombre de Rejet.csv",
+		"/Y/Projets/Eolane/Identifiant_MSCRM2015.txt",
+		"/C/Users/mcharton/Desktop/Projets/eolane/SSIS/Fichiers/Chiffre_Affaires.csv",
+		"/Y/Projets/Eolane/Doc Marc/tests eolane.txt",
+		"/C/Users/mcharton/.ssh/id_rsa.pub",
+		"/C/Users/mcharton/.ssh/id_rsa",
+		"/C/Users/mcharton/Desktop/Projets/eolane/SSIS/Config/Conf_CA.dtsConfig",
+		"/C/Users/mcharton/Desktop/deezer_history.json",
+		"/C/Users/mcharton/Downloads/historique Deezer.html",
+		"/C/Users/mcharton/Desktop/config",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/BDD/creation tables xssis_company_.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/factoring/1.3.1.populatexssis_companies_mergeedWithFactoringLastModif.companyFactoring.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/leasing/1.3.1.populatexssis_companies_leasingWithLeasingLastModif.companiesLeasing(oracle).sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/leasing/1.4.updateFromxssis_company_temp_merged_update.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/factoring/1.4.updateFromssis_company_temp_merged_update.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/leasing/1.2.truncateTableLeasing.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/leasing/1.1.getMaxDtmodFromcompany_syncconfigLEASING.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/4.syncDataCRMCouchDb.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/1.populatexssis_companies_mergeedWithFactoringLastModif.companyFactoring.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/1.populatexssis_companies_leasingWithLeasingLastModif.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/1.updateFromssis_company_temp_merged_update.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/factoring/1.3.2.populatexssis_companies_mergeedWithFactoringLastModif.lookup.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/1.getMaxDtmodFromcompany_syncconfigLEASING.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/1.getMaxDtmodFromxssis_company_sync_config.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/1.populatexssis_companies_mergeedWithFactoringLastModif.lookup.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/1.truncateTableTempMergedUpdate.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/1.updateFromssis_company_temp_merged.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/1.truncateTableTempMergedUpdate",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/1.getMaxDtmodFromxssis_action_sync_config.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/update sync_mapping from mapping_update.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/emptyTemTableSqlServer.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/structure so0 sqldeveloper.csv",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/Tables à créer.txt",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/brouillons/2015-01-14 Install environnement.txt",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/brouillons/Informations.md",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/brouillons/2015-01-19 Débrief Appli mobile.txt",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/creation tables xssis_company_.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/insert data sociétés.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/syncDataCRMCouchDb.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/emptyTableOracle.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/getLastModifFromCRM.CRM.sql",
+		"/C/Users/mcharton/Desktop/Projets/CALF - Mobile/company/ssis/getCompleteDataFromCouchDB.getAllCouchDBIds.sql",
+		"/C/Users/mcharton/Desktop/[2015-01-05] ANALYTICS/ANALYTICS_ABONNEMENT20150105131253.CSV",
+		"/C/Users/mcharton/Desktop/ANALYTICS_INDIVIDU_CODE_POSTAL_20150106175511.CSV",
+		"/C/Users/mcharton/Desktop/ANALYTICS_INDIVIDU_CIVILITE_20150106175620.CSV",
+		"/C/Users/mcharton/Desktop/ANALYTICS_INDIVIDU20150106175256.CSV",
+		"/C/Users/mcharton/Desktop/ANALYTICS_INDIVIDU20150106111826.CSV",
+		"/C/Users/mcharton/Desktop/CHAMP VILLE/PRISMA_USER_INDIVIDU_ALTER.sql",
+		"/C/Users/mcharton/Desktop/CHAMP VILLE/PRISMA_USER_INDIVIDU_REJECT.sql",
+		"/C/Users/mcharton/Desktop/Docs/perso/dev/menu js/index.html",
+		"/Y/Projets/PRISMA/04.Developpement/Export OPTIN, ABO, INDIVIDU/ANALYTICS_ABONNEMENT PROD.sql",
+		"/Y/Projets/PRISMA/04.Developpement/Export OPTIN, ABO, INDIVIDU/ANALYTICS_ABONNEMENT v1.sql",
+		"/Y/Projets/PRISMA/04.Developpement/Export OPTIN, ABO, INDIVIDU/COMPUTE_ABONNEMENT_REPORTING.sql",
+		"/Y/Projets/PRISMA/04.Developpement/Export OPTIN, ABO, INDIVIDU/COMPUTE_OVER_WEBSERVICE_REPORTING.sql",
+		"/Y/Projets/PRISMA/04.Developpement/Export OPTIN, ABO, INDIVIDU/ANALYTICS_OPTIN PROD.sql",
+		"/C/Users/mcharton/Desktop/ANALYTICS_OPTIN_20150105131252.CSV",
+		"/C/Users/mcharton/Desktop/INSCRIPTION_NEWSLETTER_20150105151816.CSV",
+		"/C/Users/mcharton/Desktop/INSCRIPTION_NEWSLETTER_20150105144712.CSV",
+		"/Y/Projets/PRISMA/04.Developpement/Export OPTIN, ABO, INDIVIDU/ANALYTICS_WEBSERVICE PROD.sql",
+		"/C/Users/mcharton/Desktop/ANALYTICS_ABONNEMENT20150105131253.CSV",
+		"/C/Users/mcharton/Desktop/ANALYTICS_OPTIN_20150105120451.CSV",
+		"/C/Users/mcharton/Downloads/CRM_CMD_FACT_CLIE.csv",
+		"/Y/Projets/PRISMA/04.Developpement/Export OPTIN, ABO, INDIVIDU/ANALYTICS_WEBSERVICE.sql"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"-->",
+			"background",
+			"button",
+			"class",
+			"button",
+			"click",
+			"+",
+			" ",
+			"ng-view",
+			"+",
+			"completed",
+			"done",
+			"alert",
+			"name",
+			"<li class=\"task-item\"> <a href=\"tasks/delete/1\" class=\"delete-task\">X</a>",
+			"delete-task",
+			"task",
+			"sendNewTask",
+			"path",
+			"list",
+			"sendMessage",
+			";",
+			"(req",
+			"url",
+			"scripts",
+			"EventEmitter",
+			"eventEmitter",
+			"objDiv",
+			"message-container",
+			"emit",
+			"handshake.session",
+			"hours = date.getHours();\n		min = date.getMinutes();\n		sec = date.getSeconds();",
+			"Minutes",
+			"=",
+			"getMinutes",
+			",",
+			"notification",
+			"balise",
+			"response",
+			"fs",
+			"http",
+			"me-message",
+			"chat",
+			"=",
+			",",
+			"\":",
+			"\"",
+			" \"",
+			"\"",
+			"Title",
+			"Écouté",
+			"Durée",
+			"Album",
+			"Artist",
+			"Title",
+			"Artiste",
+			"}",
+			"},",
+			"	",
+			"[ \\t]+",
+			" +",
+			"    ",
+			" +",
+			" ",
+			"manager",
+			"DT_STR",
+			"varchar",
+			"DT_STR",
+			")",
+			"[",
+			"null",
+			" =",
+			"action",
+			",",
+			"source",
+			"siren",
+			", crm_data.",
+			"hi0",
+			"as",
+			"AS",
+			"as",
+			"company",
+			"nvarchar",
+			"action",
+			"xssis_company_temp_merged_update",
+			"xssis_company_merged",
+			"action",
+			"nvarchar",
+			"100",
+			"nvarchar",
+			"hi0",
+			"as ",
+			"as",
+			"SYSADM",
+			".",
+			"SYSADM",
+			"datetime",
+			"varchar",
+			"VARCHAR",
+			"varchar",
+			"\n",
+			"type\n",
+			"\n",
+			"VARCHAR",
+			"dmod",
+			"action",
+			"submodule",
+			"\\\"",
+			"\\t",
+			"\\n",
+			"crm_",
+			"crm_ref",
+			"{",
+			"'",
+			"{",
+			"}",
+			"{",
+			"	",
+			"class=\"artist\"",
+			"data-target=\"track\">",
+			"action",
+			"int",
+			"{",
+			"_",
+			",",
+			"crmcompanyname",
+			"crmactiontype",
+			"crmnature"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"MC_ZOMBIES",
+			"SELECT COUNT(*) AS OPTIN ",
+			"WHERE  DEL IS NULL AND",
+			" SET DEL=1, MODIFIED_DT=GETDATE()",
+			"PRISMA_ARTICLES_ABONNEMENT_EXT",
+			"ENCLOSURE",
+			"SOURCE",
+			"CLOUD",
+			"TEXTINPUT",
+			"PRISMA_DATA_OPTIN_TELE_TEST",
+			"PRISMA_DATA_OPTIN_PEOPLE_TEST",
+			"PRISMA_DATA_OPTIN_FEMININ_TEST",
+			"PRISMA_DATA_OPTIN_ECO_DECOUVERTE_TEST",
+			"ID, GETDATE() AS CREATED_DT",
+			"",
+			"SYNC_GAP_DATA_OPTIN"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 1739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1473,
+								1473
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 495.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/index.ejs",
+					"settings":
+					{
+						"buffer_size": 2173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 352,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								351,
+								351
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"webserepo",
+				"COMPUTE_OVER_WEBSERVICE_REPORTING.sql"
+			],
+			[
+				"optin",
+				"ANALYTICS_OPTIN PROD.sql"
+			],
+			[
+				"",
+				"OPTIN - Ajout champs v1/PRISMA_DATA_OPTIN_SYNC.sql"
+			],
+			[
+				"oprej",
+				"OPTIN - Ajout champs v1/PRISMA_DATA_OPTIN_REJECT.sql"
+			],
+			[
+				"proptrej",
+				"OPTIN - Ajout champs v1/PRISMA_DATA_OPTIN_REJECT.sql"
+			],
+			[
+				"rejec",
+				"Marques/Prock stock MARQUE/PRISMA_DATA_MARQUE_REJECT.sql"
+			],
+			[
+				"prism",
+				"Marques/Prock stock MARQUE/PRISMA_DATA_MARQUE_REJECT.sql"
+			],
+			[
+				"reject",
+				"Marques/Prock stock MARQUE/PRISMA_DATA_MARQUE_REJECT.sql"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true
+}

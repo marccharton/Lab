@@ -1,0 +1,46 @@
+
+.menu-icon-cross {
+
+	transition: transform $duration;
+
+	span::before, span::after {
+		transform-origin : 50% 50%;
+	}
+
+	span {
+		z-index: 2;
+		transition : background $duration, transform $duration;
+	}
+
+	svg {
+		z-index: 1;
+		fill: fade-out($menu-color-bg, 0.3);
+		stroke-width : 3px;
+		stroke : $menu-color;
+		stroke-dasharray : 170;
+		stroke-dashoffset : 170;
+		transition : stroke-dashoffset $duration, transform $duration;
+	}
+	
+	
+	&.is-openned {
+		transform : rotate(180deg);
+		
+		span {
+			background: transparent;
+		}
+
+		span::before {
+			transform : translateY(0) rotate(45deg);
+		}
+
+		span::after {
+			transform : translateY(0) rotate(-45deg);
+		}
+
+		svg {
+			transform : rotate(-180deg);
+			stroke-dashoffset : 0;
+		}
+	}
+}

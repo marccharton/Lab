@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #159093;
+  font-family: helvetica; }
+
+header {
+  height: 150px;
+  line-height: 150px;
+  background: #333347;
+  color: #EEE;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0 0 10px #474747;
+  box-shadow: 0 0 10px #474747; }
+
+.container {
+  width: 900px;
+  margin: 0 auto; }
+
+.menu-icon {
+  position: relative;
+  width: 54px;
+  height: 54px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  transition: transform 0.5s; }
+  .menu-icon span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #EEE;
+    transition: background 0.5s; }
+    .menu-icon span::before, .menu-icon span::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateY(-6px);
+      display: block;
+      width: 22px;
+      height: 2px;
+      background-color: #EEE;
+      transition: transform 0.5s; }
+    .menu-icon span::after {
+      transform: translateY(6px); }
+  .menu-icon:hover span::before {
+    transform: translateY(-10px); }
+  .menu-icon:hover span::after {
+    transform: translateY(10px); }
+
+.menu-icon-cross {
+  transition: transform 0.5s; }
+  .menu-icon-cross span::before, .menu-icon-cross span::after {
+    transform-origin: 50% 50%; }
+  .menu-icon-cross span {
+    z-index: 2;
+    transition: background 0.5s, transform 0.5s; }
+  .menu-icon-cross svg {
+    z-index: 1;
+    fill: rgba(71, 71, 71, 0.7);
+    stroke-width: 3px;
+    stroke: #EEE;
+    stroke-dasharray: 170;
+    stroke-dashoffset: 170;
+    transition: stroke-dashoffset 0.5s, transform 0.5s; }
+  .menu-icon-cross.is-openned {
+    transform: rotate(180deg); }
+    .menu-icon-cross.is-openned span {
+      background: transparent; }
+    .menu-icon-cross.is-openned span::before {
+      transform: translateY(0) rotate(45deg); }
+    .menu-icon-cross.is-openned span::after {
+      transform: translateY(0) rotate(-45deg); }
+    .menu-icon-cross.is-openned svg {
+      transform: rotate(-180deg);
+      stroke-dashoffset: 0; }
+
+/*# sourceMappingURL=style.css.map */

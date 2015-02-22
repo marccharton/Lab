@@ -3,6 +3,10 @@
 	{
 		"selected_items":
 		[
+			[
+				"ex",
+				"existingItems"
+			]
 		]
 	},
 	"buffers":
@@ -15,11 +19,63 @@
 		"selected_items":
 		[
 			[
-				"install",
-				"Package Control: Install Package"
+				"ssg",
+				"Set Syntax: Go"
+			],
+			[
+				"commhe",
+				"Snippet: Comment - Section header comment"
+			],
+			[
+				"comme",
+				"Toggle Comment"
+			],
+			[
+				"sssc",
+				"Set Syntax: SCSS"
+			],
+			[
+				"ssc",
+				"Set Syntax: CSS"
 			],
 			[
 				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"com",
+				"Snippet: Comment - Subsection comment"
+			],
+			[
+				"comm",
+				"Snippet: Comment - Subsection comment"
+			],
+			[
+				"scss",
+				"Snippet: Basic CSS sheet"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"snicss",
+				"Snippet: Comment - Subsection comment"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -43,10 +99,6 @@
 				"Preferences: Browse Packages"
 			],
 			[
-				"html",
-				"HTML: Encode Special Characters"
-			],
-			[
 				"bro",
 				"Preferences: Browse Packages"
 			],
@@ -61,10 +113,6 @@
 			[
 				"ssgo",
 				"Set Syntax: Go"
-			],
-			[
-				"ssc",
-				"Set Syntax: C"
 			],
 			[
 				"mul",
@@ -119,7 +167,7 @@
 				"Set Syntax: HTML"
 			]
 		],
-		"width": 408.0
+		"width": 536.0
 	},
 	"console":
 	{
@@ -136,6 +184,63 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/sites/Lab/Historique Deezer/deezerHistory/app.js",
+		"/C/wamp/www/sites/Lab/Historique Deezer/deezerHistory/routes/history.js",
+		"/C/wamp/www/sites/Lab/Historique Deezer/deezerHistory/views/index.ejs",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/AdraianMejia/todoapp/public/js/script.js",
+		"/C/wamp/www/sites/Lab/Historique Deezer/deezerHistory/public/javascripts/script.js",
+		"/C/wamp/www/sites/Lab/Historique Deezer/deezerHistory/public/javascripts/bower_components/ngInfiniteScroll/package.json",
+		"/C/wamp/www/sites/Lab/Historique Deezer/deezerHistory/models/History.js",
+		"/C/wamp/www/sites/Lab/Historique Deezer/deezerHistory/data/deezer_history.json",
+		"/C/wamp/www/sites/Lab/Historique Deezer/deezerHistory/routes/index.js",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/AdraianMejia/todoapp/routes/todos.js",
+		"/D/tools/_web/mongo-tools/result.txt",
+		"/C/wamp/www/sites/Lab/Historique Deezer/deezerHistory/package.json",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/AdraianMejia/todoapp/views/error.ejs",
+		"/C/wamp/www/sites/Lab/Historique Deezer/src/styles/style.scss",
+		"/C/wamp/www/sites/Lab/Historique Deezer/src/index.html",
+		"/C/wamp/www/sites/Lab/Historique Deezer/src/js/app.js",
+		"/C/wamp/www/sites/Lab/Historique Deezer/src/config.rb",
+		"/C/wamp/www/sites/Templates/compass_smacss/src/styles/base/_base.scss",
+		"/C/wamp/www/sites/Templates/compass_smacss/src/index.html",
+		"/C/wamp/www/sites/Templates/compass_smacss/src/config.rb",
+		"/C/wamp/www/sites/Templates/compass_smacss/src/styles/style.scss",
+		"/C/wamp/www/sites/Templates/compass_smacss/src/styles/tools/_site-settings.scss",
+		"/C/wamp/www/sites/Templates/compass_smacss/template.sublime-workspace",
+		"/C/wamp/www/sites/Templates/compass_smacss/template.sublime-project",
+		"/C/wamp/www/sites/Templates/compass_smacss/src/styles/base/_normalize.scss",
+		"/C/wamp/www/sites/Templates/compass_smacss/src/styles/layout/_container.scss",
+		"/C/wamp/www/sites/Templates/compass + smacss/src/styles/base/_base.scss",
+		"/C/wamp/www/sites/Templates/compass + smacss/src/styles/base/base.scss",
+		"/C/wamp/www/sites/Templates/compass + smacss/src/styles/base/base.css",
+		"/C/wamp/www/sites/Templates/compass + smacss/src/index.html",
+		"/C/wamp/www/sites/Templates/compass + smacss/src/config.rb",
+		"/C/wamp/www/sites/Templates/compass + smacss/src/styles/layout/_header.scss",
+		"/C/wamp/www/sites/Templates/compass + smacss/src/styles/style.scss",
+		"/C/wamp/www/sites/Templates/compass + smacss/src/styles/layout/_container.scss",
+		"/D/tools/_web/_template/SASS-SMACSS-master/scss/style.scss",
+		"/C/wamp/www/sites/Templates/compass + smacss/src/styles/tools/_functions.scss",
+		"/D/tools/_web/_template/SASS-SMACSS-master/scss/base/_form.scss",
+		"/D/tools/_web/_template/SASS-SMACSS-master/index.html",
+		"/C/wamp/www/sites/Templates/compass + smacss/src/styles/layout/l-header.scss",
+		"/C/wamp/www/sites/Templates/compass + smacss/template.sublime-workspace",
+		"/C/wamp/www/sites/Templates/compass + smacss/template.sublime-project",
+		"/C/wamp/www/sites/Templates/compass + smacss/src/js/app.js",
+		"/C/wamp/www/sites/Lab/Historique Deezer/src/watch.bat",
+		"/C/Users/kram 47/Desktop/savePathVariable.txt",
+		"/C/wamp/www/sites/Lab/Historique Deezer/historique Deezer.sublime-project",
+		"/D/tools/_web/_template/SASS-SMACSS-master/config.rb",
+		"/D/tools/_web/_template/normalize.css",
+		"/D/tools/JSON-js-master/JSON-js-master/README",
+		"/C/Users/kram 47/AppData/Local/Temp/Temp1_JSON-js-master.zip/JSON-js-master/json.js",
+		"/D/tools/Raphael/readme.txt",
+		"/C/wamp/www/sites/Lab/Historique Deezer/src/style/base/base.scss",
+		"/C/wamp/www/sites/Lab/Historique Deezer/src/style/style.scss",
+		"/C/Users/kram 47/AppData/Roaming/Sublime Text 2/Packages/HTML/html.sublime-snippet",
+		"/C/wamp/www/sites/Lab/Historique Deezer/src/style/watch.bat",
+		"/C/wamp/www/sites/Lab/Historique Deezer/historique Deezer.sublime-workspace",
+		"/C/wamp/www/sites/Lab/techno/nodeJS/AdraianMejia/todoapp/views/index.ejs",
+		"/C/wamp/www/sites/Lab/Historique Deezer/src/inde",
 		"/C/Users/kram 47/Desktop/Historique Deezer/data.json",
 		"/C/Users/kram 47/Downloads/SMS.2014.FRENCH.DVDRIP.XVid-LYS.torrent.loaded",
 		"/C/Users/kram 47/Desktop/Historique Deezer/historique Deezer.html",
@@ -206,64 +311,7 @@
 		"/D/EPITECH/EPITECH/dotNet/dewplayer/testdewplayer/playlist.xml",
 		"/D/projets/Entreprise Application/chupachupa/chupachupa-desktopapp/Chupachupa-DesktopApp/packages.config",
 		"/D/projets/Entreprise Application/chupachupa/chupachupa-desktopapp/.hgignore",
-		"/C/Users/kram 47/Documents/hgignore_global.txt",
-		"/C/Users/kram 47/AppData/Local/MICROSOFT/VISUALSTUDIO/12.0/EXTENSIONS/gy1bkfo4.1f0/GettingStarted.txt",
-		"/D/downloads/NitroPDF_Pro_v.9.5.3.8_FR/readme.nfo",
-		"/C/Users/kram 47/AppData/Local/Temp/Temp1_cports.zip/readme.txt",
-		"/D/projets/Entreprise Application/chupachupa/chupachupa-webapp/Helloworld/Helloworld/Views/Home/Homepage.cshtml",
-		"/D/EPITECH/EPITECH/Depots/hell-2015-guiho_f/Purgatory/Etape 3/Machine.cpp",
-		"/D/downloads/TechSmith.Snagit.v12.2.1.1968/0 - A LIRE.txt",
-		"/C/Users/kram 47/Desktop/hosts",
-		"/D/projets/depots/chupachupa/chupachupa-server/ChupaChupa-Server/bin/Debug/log-debug.txt",
-		"/C/Users/kram 47/Desktop/{EPITECH}/[Tek1]/C/Secu/Tp1.txt",
-		"/D/projets/EIP/mandroclient/MandroClient/Resources/configuration.plist",
-		"/D/projets/EIP/mandroclient/MandroClient/CMakeLists.txt",
-		"/C/Users/kram 47/Desktop/{EPITECH}/MSDNAA Serials.txt",
-		"/C/Program Files (x86)/wamp/www/sites/lib links.txt",
-		"/F/BACKUP/PC EPITECH/www/sites/lib links.txt",
-		"/F/BACKUP/PC EPITECH/www/testmysql.php",
-		"/F/BACKUP/PC EPITECH/www/index.php",
-		"/F/BACKUP/PC EPITECH/www/cindex.html",
-		"/F/._.Trashes",
-		"/D/EPITECH/EPITECH/c++/testDL/main.cpp",
-		"/D/EPITECH/EPITECH/Depots/hell-2015-guiho_f/Purgatory/Etape 3/CMakeLists.txt",
-		"/F/BACKUP/MARC-PC/Documents/Brouillons/Récit Voyage Bresil.txt",
-		"/F/BACKUP/MARC-PC/Documents/Brouillons/Message Consulat Rio.txt",
-		"/F/BACKUP/MARC-PC/Bureau/PAPIERS/[AMIRA]/OQTF/UNEF.txt",
-		"/F/BACKUP/MARC-PC/Bureau/PAPIERS/[AMIRA]/OQTF/ressources.txt",
-		"/D/projets/Entreprise Application/chupachupa/chupachupa-webapp/webapptest.txt",
-		"/D/projets/depots/mandroclient/MandroClient/Classes/Scene/GUI/Spell/SpellPanel.cpp",
-		"/D/projets/Entreprise Application/chupachupa/chupachupa-server/.hgignore",
-		"/D/projets/Entreprise Application/chupachupa/.hgsubstate",
-		"/D/projets/Entreprise Application/chupachupa/.hgsub",
-		"/C/Program Files (x86)/wamp/www/_h5ai/conf/options.json",
-		"/C/Users/kram 47/Desktop/NMG/Rssitem.hbm.xml",
-		"/C/Users/kram 47/Desktop/NMG/Rsschannel.hbm.xml",
-		"/C/Users/kram 47/Desktop/NMG/Categoryuserchannel.hbm.xml",
-		"/C/Users/kram 47/Desktop/NMG/CategoryuserchannelMap.cs",
-		"/D/projets/depots/chupachupa/chupachupa-server/ChupaChupa-Server/libs/NUnit 2.6.2/bin/framework/nunit.framework.xml",
-		"/D/projets/depots/chupachupa/chupachupa-server/ChupaChupa-Server/bin/Debug/TestsRssChannel/ChannelTestOptionnalEmpty.xml",
-		"/D/projets/depots/chupachupa/chupachupa-server/ChupaChupa-Server/bin/Debug/log-warn.txt",
-		"/C/Users/kram 47/Desktop/NMG/Categoryuserchannel.cs",
-		"/C/Users/kram 47/Desktop/NMG/Userrsschannel.cs",
-		"/C/Users/kram 47/Desktop/NMG/User.cs",
-		"/C/Users/kram 47/Desktop/NMG/Rssitem.cs",
-		"/C/Users/kram 47/Desktop/NMG/Rsschannel.cs",
-		"/C/Users/kram 47/Desktop/NMG/RssitemrsscategoryMap.cs",
-		"/D/projets/site yvon/contenu/textes/bibliographie.txt",
-		"/D/projets/depots/chupachupa/chupachupa-server/ChupaChupa-Server/bin/Debug/TestsRssChannel/ChannelTest.xml",
-		"/D/downloads/Win'design 9.02 FRENCH +key/Win'design 9.02 FRENCH + key.nfo",
-		"/D/projets/depots/chupachupa/chupachupa-server/ChupaChupa-Server/Controller/CloudController.cs",
-		"/D/projets/depots/chupachupa/chupachupa-server/ChupaChupa-Server/Database/Mappings/Cloud.hbm.xml",
-		"/C/Users/kram 47/Desktop/NMG/CategoryMap.cs",
-		"/C/Users/kram 47/Desktop/NMG/Category.hbm.xml",
-		"/C/Users/kram 47/Desktop/Script.SQL",
-		"/D/projets/depots/chupachupa/chupachupa-server/ChupaChupa-Server/Database/Mappings/Image.hbm.xml",
-		"/C/Users/kram 47/Desktop/NMG/Category.cs",
-		"/D/projets/depots/chupachupa/chupachupa-server/ChupaChupa-Server/TestsRssChannel/ChannelTest.txt",
-		"/C/Users/kram 47/Documents/Visual Studio 2013/Projects/DAO/DAO/hibernate.cfg.xml",
-		"/D/projets/depots/chupachupa/BDD/Script.SQL",
-		"/C/Users/kram 47/Documents/Visual Studio 2013/Projects/MediathequeService/MediathequeService/Model/Film.cs"
+		"/C/Users/kram 47/Documents/hgignore_global.txt"
 	],
 	"find":
 	{
@@ -274,6 +322,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -281,6 +330,32 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<t",
+			"todos",
+			"Todos",
+			"\"Écouté\"",
+			"\"Écouté",
+			"\"Durée\"",
+			"\"Album\"",
+			"\"Artist\"",
+			"\"Title\"",
+			"Title",
+			"\"r",
+			"listened_at",
+			"Durée",
+			"Écouté",
+			"Album",
+			"Artist",
+			"Title",
+			"post",
+			"Todo",
+			"padding",
+			"wrapper-width",
+			"pwtoem",
+			"pxtoem",
+			";",
+			"$0",
+			"<script",
 			"<div class=\"icons replace\">\n							<a href=\"javascript:void(0)\" data-target=\"icon-replace\">\n								<span class=\"icon icon-datagrid icon-replace\"></span>\n							</a>\n						</div>",
 			"<div class=\"icons hover\">\n							\n							<a href=\"javascript:void(0)\" data-target=\"icon-add\" data-tooltip=\"Ajouter à une playlist\">\n								<span class=\"icon icon-datagrid icon-add\"></span>\n							</a>\n							\n							<a href=\"javascript:void(0)\" data-target=\"icon-share\" data-tooltip=\"Partager ce titre\" style=\"display: inline;\">\n								<span class=\"icon icon-datagrid icon-share\"></span>\n							</a>\n							<a href=\"javascript:void(0)\" data-target=\"icon-download\" data-tooltip=\"Télécharger le titre acheté\" style=\"display: none;\">\n								<span class=\"icon icon-datagrid icon-download\"></span>\n							</a>\n							<a class=\"evt-click\" href=\"javascript:void(0)\" data-target=\"icon-link\" data-tooltip=\"Afficher la source de ce titre\" style=\"display: none;\">\n								<span class=\"icon icon-datagrid icon-link\"></span>\n							</a>\n						</div>",
 			"<div class=\"icons\">\n							\n							<a href=\"javascript:void(0)\" data-target=\"icon-contributors\" data-tooltip=\"Voir les contributeurs\" style=\"display: none;\">\n								<span class=\"icon icon-datagrid icon-chevron-down\"></span>\n							</a>\n							<a class=\"evt-click\" href=\"javascript:void(0)\" data-target=\"icon-lyrics\" data-tooltip=\"Afficher les paroles\" style=\"display: none;\">\n								<span class=\"icon icon-datagrid icon-lyrics\"></span>\n							</a>\n							<a class=\"evt-click\" href=\"javascript:void(0)\" data-target=\"icon-video\" data-tooltip=\"Regarder le clip\" style=\"display: none;\">\n								<span class=\"icon icon-datagrid icon-desktop\"></span>\n							</a>\n						</div>",
@@ -384,16 +459,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 186.0,
+	"side_bar_width": 294.0,
 	"status_bar_visible": true
 }
