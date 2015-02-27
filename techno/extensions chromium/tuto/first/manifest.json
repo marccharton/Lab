@@ -1,0 +1,11 @@
+{
+"name" :"Extenstion Tuto",
+"version" :"1.0",
+"description" :"Première extension pour découvrir",
+"browser_action" :
+	{
+		"default_icon" : "icone.png",
+		"popup" :"dire_bonjour.html"
+	},
+"manifest_version": 2
+}
