@@ -1,0 +1,42 @@
+/** 
+ * @filename heart-shape.css 
+ * @autor kram47
+ * @date 2015-03-04
+ * 
+ * 
+ * 
+*/
+
+.heart-shape {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(250,184,66);
+    
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+
+.heart-shape:before,
+.heart-shape:after{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        content: '';
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -o-border-radius: 50%;
+        border-radius: 50%;
+        background-color: rgb(250,184,66);
+}
+.heart-shape:before{
+        bottom: 0px;
+        left: -100px;
+}
+.heart-shape:after{
+        top: -100px;
+        right: 0px;
+}
