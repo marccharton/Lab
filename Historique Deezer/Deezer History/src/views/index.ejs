@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+    <header class="l-header">
+        <div class="l-container">
+            <h1><%= title %></h1>
+        </div>
+    </header>
+    <div class="l-container">
+        <h3>You are <%= title %></h3>
+
+        <div>
+            <a href="/api/getcode"> SE CONNECTER </a>
+        </div>
+
+        <div>
+            <a href="/api/call/history"> Voir l'historique </a>
+        </div>
+        
+        <div class="test-police">
+            Ouech les amis
+        </div>
+
+        <ul>
+            <li>
+                <div class="test">
+                    <h1>T</h1>
+                </div>
+                <h1>Titre</h1>
+                <p>Artiste : Nom de l'artiste</p>
+                <p>Album : Titre de l'album</p>
+            </li>
+            <li>
+                <div class="test">
+                    <h1>C</h1>
+                </div>
+                <h1>Chanson</h1>
+                <p>Artiste : Nom de l'artiste</p>
+                <p>Album : Titre de l'album</p>
+            </li>
+            <li>
+                <div class="test">
+                    <h1>B</h1>
+                </div>
+                <h1>Balade</h1>
+                <p>Artiste : Nom de l'artiste</p>
+                <p>Album : Titre de l'album</p>
+            </li>
+            <li>
+                <div class="test">
+                    <h1>T</h1>
+                </div>
+                <h1>Titre</h1>
+                <p>Artiste : Nom de l'artiste</p>
+                <p>Album : Titre de l'album</p>
+            </li>
+        </ul>
+
+    </div>
+    
+
+
+    
+<!-- LIBRARIES -->
+    <script type="text/javascript" src="javascripts/lib/angular.js"></script>
+    <script type="text/javascript" src="javascripts/lib/angular-route.js"></script>
+    <script type="text/javascript" src="javascripts/lib/angular-resource.js"></script>
+    <script type="text/javascript" src="javascripts/lib/jquery.js"></script>
+    <script type="text/javascript" src="javascripts/lib/modernizr.js"></script>
+<!-- SCRIPTS -->
+    <script type="text/javascript" src="javascripts/app.js"></script>
+</body>
+</html>
