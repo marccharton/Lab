@@ -26,9 +26,9 @@
             Ouech les amis
         </div>
 
-        <ul>
+        <ul class="clearfix">
             <li>
-                <div class="test">
+                <div class="test test-police">
                     <h1>T</h1>
                 </div>
                 <h1>Titre</h1>
@@ -36,7 +36,7 @@
                 <p>Album : Titre de l'album</p>
             </li>
             <li>
-                <div class="test">
+                <div class="test test-police">
                     <h1>C</h1>
                 </div>
                 <h1>Chanson</h1>
@@ -44,7 +44,7 @@
                 <p>Album : Titre de l'album</p>
             </li>
             <li>
-                <div class="test">
+                <div class="test test-police">
                     <h1>B</h1>
                 </div>
                 <h1>Balade</h1>
@@ -52,7 +52,7 @@
                 <p>Album : Titre de l'album</p>
             </li>
             <li>
-                <div class="test">
+                <div class="test test-police">
                     <h1>T</h1>
                 </div>
                 <h1>Titre</h1>
@@ -63,7 +63,7 @@
 
     </div>
 
-    <div class="container">
+    <div class="l-container">
         <div ng-view></div>
     </div>
 
@@ -81,6 +81,12 @@
                 </tr>
             </thead>
             <tbody>
+                <tr>
+                    <td>hard code title</td>
+                    <td>hard code artist</td>
+                    <td>hard code album</td>
+                    <td>hard code time</td>
+                </tr>
                 <tr ng-repeat="item in items">
                     <td>blabla</td>
                     <td>blabla</td>
