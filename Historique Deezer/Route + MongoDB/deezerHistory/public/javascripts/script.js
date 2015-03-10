@@ -1,6 +1,5 @@
-alert("ça marche ! ");
 
-var app = angular.module('app', ['ngRoute', 'ngResource', 'infinite-scroll']);
+var app = angular.module('app', ['ngRoute', 'ngResource']);
 
 //---------------
 // S E R V I C E S

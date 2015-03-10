@@ -6,11 +6,7 @@ var http = require('http');
 var router = express.Router();
 
 // GET home page
-router.get('/', function(req, res, next) {
-    if ('access_token' in req.cookies)
-        res.render('index', { title: 'Connected'});
-    else
-        res.render('index', { title: 'Not connected'});
+router.get('/api', function(req, res, next) {
 });
 
 // GET '/api/getcode' 
