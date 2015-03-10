@@ -20,7 +20,7 @@ router.get('/', function(req, res, next) {
 
         response.on('end', function () {
             var history = JSON.parse(str);
-            res.send(history);
+            res.send(history.data);
         });
     }).end();
 });

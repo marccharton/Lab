@@ -22,44 +22,10 @@
             <a href="/api/call/history"> Voir l'historique </a>
         </div>
         
-        <div class="test-police">
-            Ouech les amis
+        <div class="test-police" style="color:black;font-size:50px;">
+            History
         </div>
-
-        <ul class="clearfix">
-            <li>
-                <div class="test test-police">
-                    <h1>T</h1>
-                </div>
-                <h1>Titre</h1>
-                <p>Artiste : Nom de l'artiste</p>
-                <p>Album : Titre de l'album</p>
-            </li>
-            <li>
-                <div class="test test-police">
-                    <h1>C</h1>
-                </div>
-                <h1>Chanson</h1>
-                <p>Artiste : Nom de l'artiste</p>
-                <p>Album : Titre de l'album</p>
-            </li>
-            <li>
-                <div class="test test-police">
-                    <h1>B</h1>
-                </div>
-                <h1>Balade</h1>
-                <p>Artiste : Nom de l'artiste</p>
-                <p>Album : Titre de l'album</p>
-            </li>
-            <li>
-                <div class="test test-police">
-                    <h1>T</h1>
-                </div>
-                <h1>Titre</h1>
-                <p>Artiste : Nom de l'artiste</p>
-                <p>Album : Titre de l'album</p>
-            </li>
-        </ul>
+        <input type="text" ng-model="search" />
 
     </div>
 
@@ -67,34 +33,29 @@
         <div ng-view></div>
     </div>
 
+<!-- <audio controls>
+    <source src='{{item.preview}}' type='audio/mp4'>
+    <p>Your user agent does not support the HTML5 Audio element.</p>
+</audio>
+ -->
 
     <!-- TEMPLATE -->
     <!-- History List -->
     <script type="text/ng-template" id="/historyList.html">
-        <table>
-            <thead>
-                <tr>
-                    <th>Title</th>
-                    <th>Artist</th>
-                    <th>Album</th>
-                    <th>Time</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>hard code title</td>
-                    <td>hard code artist</td>
-                    <td>hard code album</td>
-                    <td>hard code time</td>
-                </tr>
-                <tr ng-repeat="item in items">
-                    <td>blabla</td>
-                    <td>blabla</td>
-                    <td>blabla</td>
-                    <td>blabla</td>
-                </tr>
-            </tbody>
-        </table>
+        
+        <ul class="clearfix">
+            <li ng-repeat="item in items | filter: search " style="float:left;">
+                <a href="{{item.preview}}" target="_blank">
+                    <div class="test test-police">
+                        <h1 style="font-weight:normal;">{{item.title.charAt(0) | lowercase}}</h1>
+                    </div>
+                </a>
+                <h3 class="test-police" style="color:black;">{{item.title}}</h3>
+                <p><a href="{{item.artist.link}}" target="_blank">Artiste : {{item.artist.name}}</a></p>
+                <p><a href="{{item.album.link}}" target="_blank">Album : {{item.album.title}}</a></p>
+            </li>
+        </ul>
+
     </script>
 
     

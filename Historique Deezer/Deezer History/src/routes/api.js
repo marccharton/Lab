@@ -109,8 +109,14 @@ router.get('/call/history', function (req, res, next) {
             var history = JSON.parse(str);
             ret += "Les dernières chansons que tu as écouté : <br />\n<ul>";
             for (var i = 0 ; i < history.data.length ; i++) {
-                ret += "<li data-songid='"+history.data[i].id+"''> '" + history.data[i].title + "'' de '" + history.data[i].artist.name + "'. <a href='"+history.data[i].preview+"'>Ecouter un extrait</a></li>";
+                ret += "<li data-songid='"+history.data[i].id+"''> '" + history.data[i].title + "'' de '" + history.data[i].artist.name + "'."; // + "<a href='"+history.data[i].preview+"'>Ecouter un extrait</a>";
+                    ret += "<audio controls>";
+                        ret += "<source src='"+history.data[i].preview+"' type='audio/mp4'>";
+                        ret += "<p>Your user agent does not support the HTML5 Audio element.</p>";
+                    ret += "</audio>";
+                ret += "</li>";
             }
+            
             ret += "</ul>";
             res.send(ret);
         });
