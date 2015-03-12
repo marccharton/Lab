@@ -39,15 +39,14 @@
 </audio>
  -->
 
-    <!-- TEMPLATE -->
+<!-- TEMPLATE -->
     <!-- History List -->
     <script type="text/ng-template" id="/historyList.html">
-        
         <ul class="clearfix">
             <li ng-repeat="item in items | filter: search " style="float:left;">
                 <a href="{{item.preview}}" target="_blank">
-                    <div class="test test-police">
-                        <h1 style="font-weight:normal;">{{item.title.charAt(0) | lowercase}}</h1>
+                    <div class="bubble">
+                        <h1 style="font-weight:normal;font-size:88px">{{item.title.charAt(0) | uppercase}}</h1>
                     </div>
                 </a>
                 <h3 class="test-police" style="color:black;">{{item.title}}</h3>
@@ -55,11 +54,7 @@
                 <p><a href="{{item.album.link}}" target="_blank">Album : {{item.album.title}}</a></p>
             </li>
         </ul>
-
     </script>
-
-    
-
 
     
 <!-- LIBRARIES -->

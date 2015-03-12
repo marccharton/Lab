@@ -49,28 +49,25 @@ hr {
     font-style: normal;
 }
 
-.test-police {
-    font-family: 'Slot-Regular';
-    color: #EEE;
-}
-
-
 ul li {
     list-style-type: none;
     list-style: none;
     float:left;
     width:400px;
+    padding: 10px;
 }
 
-.test {
-    border-radius : 50%;
-    background: #e67e22;
+.bubble {
     width : 100px;
     height : 100px;
-    margin: 10px;
+    border-radius : 50%;
+    background: #e67e22;
+    margin-right: 10px;
     float: left;
     text-align: center;
     line-height: 100px;
     font-size: 30px;
+    font-family: 'Slot-Regular';
+    color: #EEE;
 }
 

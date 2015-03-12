@@ -8,7 +8,7 @@ sass_dir = "stylesheets/"
 images_dir = "images/"
 javascripts_dir = "javascripts/"
 
-sass_options = {:cache_location => "C:/.sass-cache"}
+sass_options = {:cache_location => "C:/Windows/Temp/dev/DeezerHistory/.sass-cache"}
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed

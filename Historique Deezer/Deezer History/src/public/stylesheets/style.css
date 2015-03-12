@@ -209,28 +209,26 @@ hr {
   font-weight: normal;
   font-style: normal; }
 /* line 52, base/_base.scss */
-.test-police {
-  font-family: 'Slot-Regular';
-  color: #EEE; }
-
-/* line 58, base/_base.scss */
 ul li {
   list-style-type: none;
   list-style: none;
   float: left;
-  width: 400px; }
+  width: 400px;
+  padding: 10px; }
 
-/* line 65, base/_base.scss */
-.test {
-  border-radius: 50%;
-  background: #e67e22;
+/* line 60, base/_base.scss */
+.bubble {
   width: 100px;
   height: 100px;
-  margin: 10px;
+  border-radius: 50%;
+  background: #e67e22;
+  margin-right: 10px;
   float: left;
   text-align: center;
   line-height: 100px;
-  font-size: 30px; }
+  font-size: 30px;
+  font-family: 'Slot-Regular';
+  color: #EEE; }
 
 /* ==|====================
    Base/Form
