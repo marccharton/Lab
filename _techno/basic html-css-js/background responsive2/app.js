@@ -7,7 +7,8 @@ function HeightBackground () {
 
 function ShrinkNavbar() {
 	$(window).scroll(function () {
-		if ($(window).scrollTop() > 50)
+		var height = $(window).height();
+		if ($(window).scrollTop() > height - 400)
 		{
 			$("#navbar").removeClass('full');
 			$("#navbar").addClass('shrink');

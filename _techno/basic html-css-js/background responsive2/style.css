@@ -21,9 +21,20 @@ body {
 
 .content {
 	height: 1000px;
-	position: absolute;
-	right:0;
-	left:0;
+	padding: 50px;
+}
+
+#accueil {
+	background: #E77D25;
+}
+#galerie {
+	background: #E84C3D;
+}
+#biographie {
+	background: #354A5F;
+}
+#contacts {
+	background: #3598DC;
 }
 
 
@@ -67,8 +78,8 @@ header .bg-cover {
 }
 
 .navbar.full {
-	height: 100px;
-	line-height: 100px;
+	height: 250px;
+	line-height: 250px;
 }
 .navbar.shrink {
 	height: 60px;
@@ -78,15 +89,17 @@ header .bg-cover {
 }
 .navbar.shrink .navbar-logo img{
 	width: 50px;
-	height: 50px;	
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .navbar-logo {
 	float: left;	
 }
-	.navbar-logo img {
+	.navbar.full .navbar-logo img {
 		width: 100px;
-		height: 100px;	
+		-webkit-transition: all 0.5s;
+		transition: all 0.5s;
 	}
 
 .navbar-menu {
