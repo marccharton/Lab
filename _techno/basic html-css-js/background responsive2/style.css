@@ -1,0 +1,118 @@
+/*************************************
+**************** NAVBAR **************
+*************************************/
+
+
+* {padding: 0;margin: 0;}
+
+html  {
+	margin: 0;padding: 0;
+	
+}
+
+body {
+	 font-family: Open sans, helvetica;
+}
+
+.container {
+	max-width: 900px;
+	margin: auto;
+}
+
+.content {
+	height: 1000px;
+	padding: 50px;
+}
+
+#accueil {
+	background: #E77D25;
+}
+#galerie {
+	background: #E84C3D;
+}
+#biographie {
+	background: #354A5F;
+}
+#contacts {
+	background: #3598DC;
+}
+
+
+/*************************************
+**************** HEADER **************
+*************************************/
+
+header {
+	background: url(bg.jpg) no-repeat center fixed;
+	-webkit-background-size : cover;
+			background-size : cover;
+}
+
+header .bg-cover {
+	position : absolute;
+	right: 0;
+	left:0;
+	bottom:0;
+	z-index: 1;
+	height: 100%;
+	
+	background-color: rgba(0,5,8,0.75);
+}
+
+
+
+/*************************************
+**************** NAVBAR **************
+*************************************/
+
+
+.navbar {
+	position:fixed;
+	top: 0;
+	left:0;
+	right: 0;
+	z-index: 2;
+	
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.navbar.full {
+	height: 250px;
+	line-height: 250px;
+}
+.navbar.shrink {
+	height: 60px;
+	line-height: 60px;
+	
+	background: #222;
+}
+.navbar.shrink .navbar-logo img{
+	width: 50px;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.navbar-logo {
+	float: left;	
+}
+	.navbar.full .navbar-logo img {
+		width: 100px;
+		-webkit-transition: all 0.5s;
+		transition: all 0.5s;
+	}
+
+.navbar-menu {
+	overflow: hidden;
+	text-align: right;
+}
+	.navbar-menu a {
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 14px;
+		color: #FFF;
+		padding: 0 15px;
+	}
+		.navbar-menu a.active {
+			color: #D8A050;
+		}
