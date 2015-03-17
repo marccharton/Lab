@@ -1,5 +1,4 @@
 (function($){
-
 	var sections = [];
 	var id = false;
 	var $navbar = $('.navbar-nav');
@@ -31,7 +30,6 @@
 			$navbara.removeClass('current');
 			$("a[href=#" + id + "]", $navbar).addClass('current');
 			console.log('menu change pour : ' + id);
-			
 		}
 	});
 

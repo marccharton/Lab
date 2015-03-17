@@ -26,6 +26,7 @@ body {
 
 #accueil {
 	background: #716861;
+	background: #222;
 	height: 150px;
 	font-size: 20px;
 	text-align:center;
@@ -37,7 +38,7 @@ body {
 	background: #E77D25;
 }
 #biographie {
-	background: url(../img/bg1.jpg) center 0 no-repeat fixed;
+	background: url(../img/min/bg1.jpg) center 0 no-repeat fixed;
 	-webkit-box-shadow: 0 0 10px #000;
 	        box-shadow: 0 0 10px #000;
     background-size : cover;
@@ -57,7 +58,7 @@ body {
 }
 
 #expositions {
-	background: url(../img/bg3.jpg) center 0 no-repeat fixed;
+	background: url(../img/min/bg3.jpg) center 0 no-repeat fixed;
 	-webkit-box-shadow: 0 0 10px #000;
 	        box-shadow: 0 0 10px #000;
     background-size : cover;
@@ -71,7 +72,7 @@ body {
 *************************************/
 
 header {
-	background: url(../img/bg2.jpg) center 0 no-repeat fixed;
+	background: url(../img/min/bg2.jpg) center 0 no-repeat fixed;
 	-webkit-background-size : cover;
 			background-size : cover;
 }
