@@ -18,11 +18,17 @@ body {
 	        box-shadow: 0 0 10px #474747;
 }
 
+.l-header section {
+	line-height:1.2;
+	width:200px; /* largeur du bloc */
+	vertical-align:middle;
+	display:inline-block;
+}
+
 .l-container {
 	width: 900px;
 	margin:0 auto
 }
-
 
 @media all and (max-width:900px) {
 	.l-container {
