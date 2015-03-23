@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Example</title>
+</head>
+<body data-page="search">
+    <h1>Search page</h1>
+    <script src="js/lib/require.js"></script>
+    <script>
+        require.config{
+            baseUrl : 'js',
+            paths : {
+                // all versioning paths alias here since it shouldn't be cached
+                'main' : 'main-v2',
+                'sections/search/main' : 'sections/search/main-v27',
+                'jquery' : 'lib/jquery.1.6.3'
+            }
+        };
+        require(['main'], function(main){
+            //main is loaded, probably don't need to do anything here..
+        });
+    </script>
+</body>
+</html>

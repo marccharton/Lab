@@ -1,4 +1,4 @@
-define('main', ['test', 'util', 'jQuery'], function(pTest, pUtil, $){
+define('main', ['test', 'util', 'jquery'], function(pTest, pUtil, $){
     alert("debut");
 
     var test = new pTest();

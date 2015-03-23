@@ -1,15 +1,16 @@
-require.config({
+requirejs.config({
     paths: {
-        'jQuery': '../libs/jquery',
+        'jquery': '../libs/jquery',
         'test': 'helper/test',
         'util': 'helper/util',
         'app' : 'app'
     },
     shim: {
-        'jQuery': {
+        // cette partie est optionnelle si le nom est 'jquery'
+        'jquery': {
             exports: '$'
         }
     }
 });
 
-require(['main']);
+requirejs(['main']);
