@@ -1,0 +1,25 @@
+{
+  "name": "waypoints",
+  "version": "0.0.0",
+  "authors": [
+    "mcharton <marc.charton@epitech.eu>"
+  ],
+  "description": "tuto of waypoints",
+  "main": "index.html",
+  "keywords": [
+    "waypoints"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.16",
+    "jquery": "~2.1.3",
+    "waypoints": "~3.1.1"
+  }
+}

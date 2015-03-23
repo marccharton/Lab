@@ -1,0 +1,48 @@
+*, *::before, *::after {
+	margin: 0;padding: 0;
+	border-box : box-sizing;
+}
+
+body {
+	font-family: helvetica, sans-serif;
+	background: #FFF;
+}
+
+.l-header {
+	height: 150px;
+	line-height: 150px;
+	background: #28324E;
+	color: #EEE;
+	-webkit-box-shadow: 0 0 10px #474747;
+	        box-shadow: 0 0 10px #474747;
+}
+
+.l-header section {
+    line-height:1.2;
+    width:400px;
+    vertical-align:middle;
+    display:inline-block;
+}
+
+.l-container {
+	width: 900px;
+	margin:0 auto
+}
+
+@media all and (max-width:900px) {
+	.l-container {
+		width: 100%;
+	}
+}
+
+
+section.content {
+	height: 700px;
+}
+	section.content .l-container { 
+		padding: 50px;}
+
+section.first { background-color: #F37934; color:#333;}
+	
+section.second { background-color: #1ABC9C; color:#333;}
+section.third { background-color: #2C82C9; color:#333;}
