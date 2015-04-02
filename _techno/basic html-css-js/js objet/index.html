@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>JsObject</title>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	
+<header class="l-header">
+	<div class="l-container">
+		<section>
+			<h1>JsObject</h1>
+			<p>Sous titre de mon template</p>
+		</section>
+	</div>
+</header>
+
+<div class="l-container">
+	
+	<input type="text" x-webkit-speech />
+
+</div>
+
+
+<!-- LIBRARIES -->
+	<script type="text/javascript" src="libs/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="libs/isjs/is.min.js"></script>
+<!-- SCRIPTS -->
+	<script type="text/javascript" src="scripts/JsObject.js"></script>
+	<script type="text/javascript" src="scripts/app.js"></script>
+	<script type="text/javascript">
+		// App.Init();
+
+		/*=================================
+		=            Principle            =
+		=================================*/
+		
+			var animal = {
+				cri : '????',
+				crier : function () {
+					return this.cri;
+				},
+				fourure : {
+					couleur : "blanc",
+					longueur : 'court'
+				}
+			};
+		
+		/*-----  End of Principle  ------*/
+		
+		
+
+		/*=============================================
+		=            OLD SCHOOL            =
+		=============================================*/
+		
+			/*var animal = function (nom) {
+				this.nom = nom;
+			};
+
+			animal.prototype.pattes = 4;
+			animal.prototype.cri = '???';
+			animal.prototype.crier = function () {
+				return "Le cri : " + this.cri;
+			};
+			animal.prototype.fourure = {
+				couleur : 'blanc',
+				longueur : 'courte'
+			};
+
+			
+			var poney = new animal('Roger');
+			poney.pattes = 3;
+			// poney.fourure.couleur = "marron"; // BAD !!
+			poney.fourure =  { couleur : "marron", longueur : "longue" } // GOOD !!
+
+			
+			var chat = new animal('Croquette');*/
+		
+		/*-----  End of OLD SCHOOL  ------*/
+		
+		
+		/*===============================
+		=            NEW WAY            =
+		===============================*/
+		
+		
+			var poney = Object.create(animal);
+			poney.marcher = function () {
+				return 'cataclop';
+			}
+		
+			var chat = Object.create(animal);
+			chat.marcher = function () {
+				return 'ronron';
+			}
+
+			var roger = Object.create(poney);
+			roger.nom = "Roger";
+
+		
+		/*-----  End of NEW WAY  ------*/
+		
+	</script>
+</body>
+</html>
