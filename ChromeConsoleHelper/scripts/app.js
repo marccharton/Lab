@@ -7,23 +7,20 @@ var App = (function ($) {
 	var self = {};
 
 	self.Init = function () {
-		
-		alert("Bienvenue dans mon template");
-		
+
 		console.log(cch.about);
 
-		cch.Print("ouech les amis je suis normal");
+		cch.print("ouech les amis je suis normal");
 
-		cch.H1("ouech les amis je suis un header H1");
-		cch.H2("ouech les amis je suis un header H2");
-		cch.H3("ouech les amis je suis un header H3");
-		cch.H4("ouech les amis je suis un header H4");
-		cch.H5("ouech les amis je suis un header H5");
-		cch.H6("ouech les amis je suis un header H6");
+		cch.title("ouech les amis je suis un header H1", 1);
+		cch.title("ouech les amis je suis un header H2", 2);
+		cch.title("ouech les amis je suis un header H3", 3);
+		cch.title("ouech les amis je suis un header H4", 4);
+		cch.title("ouech les amis je suis un header H5", 5);
+		cch.title("ouech les amis je suis un header H6", 6);
 		
-
-		cch.Log({"This": "is", "An" : "Object"});
-		cch.Table([[1,2,3], [2,3,4]]);
+		cch.log({"This": "is", "An" : "Object"});
+		cch.table([[1,2,3], [2,3,4]]);
 
 
 		var table = [
@@ -31,9 +28,22 @@ var App = (function ($) {
 			["ouech","tout","le", "monde"]
 		];
 
-		cch.Table(table);
+		cch.table(table);
 
 	};
+
+	self.Readme = function () {
+		cch.clear();
+
+		cch.title("ChromeConsoleHelper.js");
+		cch.print("ChromeConsoleHelper.js est un utilitaire pour embellir vos messages dans la console chrome.");
+		cch.print("A noter qu'il n'est compatible qu'avec chrome pour l'instant et c'est déjà pas mal !");
+
+		cch.title("About", 2);
+
+	};	
+
+
 
 	return self;
 
