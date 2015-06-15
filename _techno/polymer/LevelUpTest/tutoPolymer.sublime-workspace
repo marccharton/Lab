@@ -7,30 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "elements/hello-world.html",
-			"settings":
-			{
-				"buffer_size": 491,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "elements/hello-world2.html",
-			"settings":
-			{
-				"buffer_size": 500,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 2188,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -164,6 +140,9 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/sites/labo/_techno/polymer/LevelUpTest/index.html",
+		"/C/wamp/www/sites/labo/_techno/polymer/LevelUpTest/elements/hello-world.html",
+		"/C/wamp/www/sites/labo/_techno/polymer/LevelUpTest/elements/hello-world2.html",
 		"/C/wamp/www/sites/Lab/Angular.js/todoList/todo.php",
 		"/D/downloads/Lumino City-SKIDROW/skidrow.nfo",
 		"/C/Program Files (x86)/The Bridge/prophet.nfo",
@@ -288,10 +267,7 @@
 		"/D/projets/depots/chupachupa/chupachupa-server/ChupaChupa-Server/bin/Debug/TestsRssChannel/ChannelTest.xml",
 		"/D/downloads/Win'design 9.02 FRENCH +key/Win'design 9.02 FRENCH + key.nfo",
 		"/D/projets/depots/chupachupa/chupachupa-server/ChupaChupa-Server/Controller/CloudController.cs",
-		"/D/projets/depots/chupachupa/chupachupa-server/ChupaChupa-Server/Database/Mappings/Cloud.hbm.xml",
-		"/C/Users/kram 47/Desktop/NMG/CategoryMap.cs",
-		"/C/Users/kram 47/Desktop/NMG/Category.hbm.xml",
-		"/C/Users/kram 47/Desktop/Script.SQL"
+		"/D/projets/depots/chupachupa/chupachupa-server/ChupaChupa-Server/Database/Mappings/Cloud.hbm.xml"
 	],
 	"find":
 	{
@@ -367,97 +343,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "elements/hello-world.html",
-					"settings":
-					{
-						"buffer_size": 491,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"_anf_new": "",
-							"auto_indent": true,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "elements/hello-world2.html",
-					"settings":
-					{
-						"buffer_size": 500,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								363,
-								363
-							]
-						],
-						"settings":
-						{
-							"_anf_new": "",
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 2188,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								880,
-								880
-							]
-						],
-						"settings":
-						{
-							"auto_indent": true,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

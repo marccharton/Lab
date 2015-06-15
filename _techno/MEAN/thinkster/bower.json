@@ -1,0 +1,17 @@
+{
+  "name": "thinkster",
+  "version": "0.0.0",
+  "authors": [
+    "mcharton <marc.charton@epitech.eu>"
+  ],
+  "description": "thinkster MEAN tutorial",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
