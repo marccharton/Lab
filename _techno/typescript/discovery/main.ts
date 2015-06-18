@@ -1,3 +1,8 @@
+interface Person {
+    firstname: string;
+    lastname: string;
+}
+
 class Discovery {
 	_property1 : number;
 	_property2 : number;
@@ -8,11 +13,19 @@ class Discovery {
 		this._property2 = 42;		
 	}
 	
-	GetSomeDatas()
+	DoSomething()
 	{
-		alert('Ouech tu as récupéré des datas !');
-		alert('Tes prop valent : {$this._property1} and {$this._property1}. ');
+		alert("Bien vu l'artiste !");
+		alert('Tes prop valent : ${this._property1} and ${this._property1}. ');
+	}
+	
+	greeter(person: Person) {
+	    return "Hello, " + person.firstname + " " + person.lastname;
 	}
 }
 
 var test = new Discovery();
+test.DoSomething();
+
+var user = {firstname: "Jane", lastname: "User"};
+console.log(test.greeter(user));
