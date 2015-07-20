@@ -1,0 +1,26 @@
+* {
+	padding:0;margin:0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+header {
+	background: #EEE;
+	padding: 20px;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.main {
+	margin-top: 20px;
+}
+
+.main li {
+	margin: 10px 0;
+	line-height: 1.5em;
+}
