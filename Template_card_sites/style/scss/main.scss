@@ -1,0 +1,79 @@
+// Import of configuration file
+@import "base";
+
+/**
+*
+* G L O B A L
+*
+**/
+
+body {
+	background-color:		$lightgray;
+	margin: 0;padding: 0;
+}
+
+/**
+*
+* H E A D E R 
+*
+**/
+
+header {
+	background-color:		$foreground;
+	height:					100px;
+	width:					100%;
+	color:					#FFF;
+	padding-left:			20px;
+	
+ 	h1 {
+		line-height:			100px;
+		margin:					0px;
+	}
+}
+
+/**
+*
+* F O O T E R
+*
+**/
+
+/* 
+footer {
+	background-color:		$foreground;
+	height:					100px;
+	width:					100%;
+	color:					white;
+	padding-left:			20px;
+	
+	p {
+		line-height:			100px;
+		margin:					0px;
+		font-size:				18px;
+		font-weight:			200px;
+	}
+} */
+
+/**
+*
+* M A I N  C O N T A I N E R
+*
+**/
+
+
+.container {
+	min-width: 2000px;
+	
+    overflow-y: hidden;
+}
+
+#main {
+	background-color:		$lightgray;
+	min-height:				400px;
+	width:					100%;
+
+}
+
+.card {
+	float : left;
+	margin : 20px;
+}
