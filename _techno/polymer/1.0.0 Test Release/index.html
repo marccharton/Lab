@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Polymer #1.0.0</title>
+	<meta charset="UTF-8">
+
+<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/style.css">
+
+<!-- Scripts -->	
+	<script type="text/javascript" src="libs/webcomponentsjs/webcomponents-lite.min.js"></script>
+	
+<!-- POLYMER Elements -->
+	<link rel="import" href="partials/proto-element.html">
+	<link rel="import" href="partials/dom-element.html">
+	<link rel="import" href="partials/picture-frame.html">
+	<link rel="import" href="partials/name-tag.html">
+	<link rel="import" href="partials/configurable-name-tag.html">
+	<link rel="import" href="partials/editable-name-tag.html">
+
+</head>
+<body>
+	<div class="container">
+		<header>
+			<img src="https://www.polymer-project.org/images/logos/lockup.svg" alt="Polymer #1.0.0">
+		</header>
+
+		<section class="polymer__presentation">
+			<div class="polymer__element">
+				<h2>Proto element</h2>
+				<proto-element></proto-element>
+			</div>
+			
+			<div class="polymer__element">
+				<h2>Dom element</h2>
+				<dom-element></dom-element>
+			</div>
+			
+			<div class="polymer__element">
+				<h2>Picture frame</h2>
+				<picture-frame>
+			    	<img src="https://www.polymer-project.org/images/logos/lockup.svg">
+			    </picture-frame>
+			</div>
+			
+			<div class="polymer__element">
+				<h2>Name Tag</h2>
+				<name-tag></name-tag>
+			</div>
+
+			<div class="polymer__element">
+				<h2>Configurable Name Tag</h2>
+				<configurable-name-tag owner="Marc"></configurable-name-tag>
+			</div>
+
+			<div class="polymer__element">
+				<h2>Editable Name Tag</h2>
+				<editable-name-tag></editable-name-tag>
+			</div>
+		</section>
+	</div>
+</body>
+</html>

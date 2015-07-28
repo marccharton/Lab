@@ -1,0 +1,19 @@
+{
+  "name": "1.0.0 Test Release",
+  "version": "0.0.0",
+  "authors": [
+    "Marc Charton <mcharton@altirc.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "iron-input": "polymerelements/iron-input#~1.0.4"
+  }
+}
