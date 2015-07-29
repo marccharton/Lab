@@ -1,0 +1,18 @@
+{
+  "name": "alone",
+  "version": "0.0.0",
+  "authors": [
+    "Marc Charton <mcharton@altirc.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "polymer": "~1.0.8"
+  }
+}
