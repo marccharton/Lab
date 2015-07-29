@@ -1,5 +1,5 @@
 <!-- Header File -->
 <header>
-		<h1> Basic Template </h1>
+		<h1> Sites </h1>
 </header>
 <!-- end of Header File -->

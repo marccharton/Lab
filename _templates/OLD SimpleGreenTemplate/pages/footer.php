@@ -1,5 +1,5 @@
 <!-- Footer File -->
 <footer>
-	<p> &copy; Basic Template 2013 </p>
+	<p> &copy; Sites 2015 </p>
 </footer>
 <!-- end of Footer File -->
