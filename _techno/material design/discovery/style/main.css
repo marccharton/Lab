@@ -1,0 +1,50 @@
+/**
+*
+* Color palette
+*
+**/
+/*==========  R E D  ==========*/
+/*==========  P I N K  ==========*/
+/*==========  P U R P L E  ==========*/
+/*==========  G R E Y  ==========*/
+/*==========  D E E P - P U R P L E  ==========*/
+/*==========  I N D I G O  ==========*/
+/*==========  I N D I G O  ==========*/
+/*==========  L I G H T - B L U E  ==========*/
+/*==========  C Y A N  ==========*/
+/*==========  T E A L  ==========*/
+/*==========  G R E E N     = = = = ======*/
+/*==========  L I G H T - G R E E N   ==========*/
+/*==========  L I M E  ==========*/
+/*==========  Y E L L O W  ==========*/
+/*==========  A M B E R  ==========*/
+/*==========  O R A N G E  ==========*/
+/*==========  D E E P - O R A N G E  ==========*/
+/*==========  B R O W N  ==========*/
+/*==========  G R E Y  ==========*/
+/*==========  B L U E  G R E Y  ==========*/
+/*==========  BLUE GREY  ==========*/
+/*==========  T H E M E  ==========*/
+body {
+  background: #212121; }
+
+.card__container {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4000px; }
+
+.card {
+  width: 512px;
+  height: 512px;
+  margin: 10px;
+  float: left;
+  background: #424242;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  transition: all 0.2s linear; }
+  .card:hover {
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.6);
+    transform: scale(1.02); }
+
+/*# sourceMappingURL=main.css.map */

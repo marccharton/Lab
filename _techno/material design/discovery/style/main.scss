@@ -1,0 +1,34 @@
+@import 'base';
+
+body {
+	background: $color_background; 
+}
+
+.card__container
+{
+	position : absolute;
+	left: 0; top: 50%;
+	transform : translateY(-50%);
+	width : 4000px;
+	
+	// border : $color_primary solid 2px;
+	
+}
+
+.card {
+
+	width: 512px;
+	height: 512px;
+	margin: 10px;
+	float: left;
+
+	background: $color_foreground;
+	box-shadow: 0 0 10px rgba($color_shadow, 0.8); 
+
+	transition : all 0.2s linear;
+	
+	&:hover {
+		box-shadow: 0 0 60px rgba($color_shadow, 0.6); 
+		transform : scale(1.02);
+	}
+}

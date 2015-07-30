@@ -1,0 +1,24 @@
+@import 'material_design_colors';
+
+
+/*==========  T H E M E  ==========*/
+
+$color_primary--light : $indigo_100;
+$color_primary :        $indigo_500;
+$color_primary--dark :  $indigo_700;
+
+$color_accent--light : 	$pink_A100;
+$color_accent :        	$pink_A200;
+$color_accent--dark :  	$pink_A400;
+
+$color_mono--lighter : 	$grey_100;
+$color_mono--light : 	$grey_200;
+$color_mono :        	$grey_400;
+$color_mono--dark :  	$grey_800;
+$color_mono--darker :  	$grey_900;
+
+
+
+$color_background : 	$color_mono--darker;
+$color_foreground : 	$color_mono--dark;
+$color_shadow :        	$black;
