@@ -1,8 +1,20 @@
 @import 'base';
 
 body {
-	background: $color_background; 
+	background: $color_background;
+	font-family: "roboto" "open sans" sans-serif;
 }
+
+
+header {
+	color: $color_text;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+}
+
 
 .card__container
 {
@@ -10,25 +22,66 @@ body {
 	left: 0; top: 50%;
 	transform : translateY(-50%);
 	width : 4000px;
-	
+
 	// border : $color_primary solid 2px;
-	
+
 }
 
 .card {
 
 	width: 512px;
 	height: 512px;
-	margin: 10px;
 	float: left;
+	position:relative;
+
+	margin: 10px;
 
 	background: $color_foreground;
-	box-shadow: 0 0 10px rgba($color_shadow, 0.8); 
+	box-shadow: 0 0 10px rgba($color_shadow, 0.8);
 
 	transition : all 0.2s linear;
-	
+
 	&:hover {
-		box-shadow: 0 0 60px rgba($color_shadow, 0.6); 
+		box-shadow: 0 0 60px rgba($color_shadow, 0.6);
+		background: lighten($color_foreground, 10);;
 		transform : scale(1.02);
 	}
+}
+
+
+.card__img {
+	width: 512px;
+	height: 512px;
+
+	opacity: 0.5;
+
+	transition : all 0.2s linear;
+
+	.card:hover & {
+		opacity: 0.8;
+	}
+}
+
+.card__title {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 150px;
+	left:50%;
+
+	color: $color_text;
+	background: rgba($color_layer, 0.5);
+	font-weight: inherit;
+
+	text-align: center;
+	line-height: 150px;
+
+	transform:translateX(-50%);
+	transition : all 0.2s linear;
+
+	.card:hover & {
+		background: rgba($color_layer, 0.3);
+		color: $color_text;
+	}
+
 }

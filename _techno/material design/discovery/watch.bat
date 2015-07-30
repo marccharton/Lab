@@ -1,2 +1,2 @@
-sass --watch style/*.scss:style.main.css
+sass --watch style/main.scss:style/main.css
 PAUSE

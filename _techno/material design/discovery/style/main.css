@@ -26,7 +26,16 @@
 /*==========  BLUE GREY  ==========*/
 /*==========  T H E M E  ==========*/
 body {
-  background: #212121; }
+  background: #212121;
+  font-family: "roboto" "open sans" sans-serif; }
+
+header {
+  color: #BDBDBD;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  position: fixed;
+  top: 10px;
+  left: 10px; }
 
 .card__container {
   position: absolute;
@@ -38,13 +47,40 @@ body {
 .card {
   width: 512px;
   height: 512px;
-  margin: 10px;
   float: left;
+  position: relative;
+  margin: 10px;
   background: #424242;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   transition: all 0.2s linear; }
   .card:hover {
     box-shadow: 0 0 60px rgba(0, 0, 0, 0.6);
+    background: #5c5c5c;
     transform: scale(1.02); }
+
+.card__img {
+  width: 512px;
+  height: 512px;
+  opacity: 0.5;
+  transition: all 0.2s linear; }
+  .card:hover .card__img {
+    opacity: 0.8; }
+
+.card__title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  left: 50%;
+  color: #BDBDBD;
+  background: rgba(0, 0, 0, 0.5);
+  font-weight: inherit;
+  text-align: center;
+  line-height: 150px;
+  transform: translateX(-50%);
+  transition: all 0.2s linear; }
+  .card:hover .card__title {
+    background: rgba(0, 0, 0, 0.3);
+    color: #BDBDBD; }
 
 /*# sourceMappingURL=main.css.map */
