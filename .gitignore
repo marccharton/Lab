@@ -1,7 +1,22 @@
-.sass-cache/
+# Sublime Text Project Files
+
 *.sublime-project
 *.sublime-workspace
+
+
+# Sass temp files
+
+*.css.map
+.sass-cache/
+
+
+# Node Dependencies
+
 node_modules/
+
+
+# Bower Dependencies
+
 bower/
 bower_components/
 libs/

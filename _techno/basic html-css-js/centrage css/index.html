@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Centrage CSS</title>
 	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="libs/prism/prism.css" />
 </head>
 <body>
 	
@@ -14,24 +15,56 @@
 </header>
 
 <div class="container main">
+
+<p>
+	Voici un petit récapitulatif sur le centrage aussi bien horizontal que vertical en CSS. <br>
+	Le but de cette page est de lister les différentes techniques existantes pour pouvoir centrer un ou plusieurs block au sein d'un block parent. <br>
+</p>
 	
+<!-- ===================================== -->
+<!-- ========= H O R I Z O N T A L ======= -->
+<!-- =================================	==== -->
+
+	<h2>Centrage Horizontal</h2>
 
 <!-- ======= R O W - 1 ======= -->
-
+	<h3>Centrage Horizontal - Simple span</h3>
 	<div class="row row-1">
+		<h4>Démonstration</h4>
 		<div class="demo">
 			<div class="box__parent">
 				<span class="box__child">simple span</span>
 			</div>
 		</div>
+		
+		<h4>Description</h4>
 		<div class="description">
-			Ouech tonton les amis
+			span simple, le parent a un text-align : center; <br>
+			Fonctionne en display : inline; et display : inline-block;
+		</div>
+
+		<h4>Code</h4>
+		<div class="code">
+			<pre><code class="language-css">
+			.box__parent {
+				text-align : center;
+			}
+
+			.box__child {
+				width: $size_child_width;
+				height: $size_child_height;
+				display: inline-block;
+				
+				padding: $size_child_padding;
+			}
+			</code></pre>
 		</div>
 	</div>
 
 <!-- ======= R O W - 2 ======= -->
-
+	<h3>Centrage Horizontal - Margin auto</h3>
 	<div class="row row-2">
+		<h4>Démonstration</h4>
 		<div class="demo">
 			<div class="box__parent">
 				<div class="box__child">
@@ -39,44 +72,130 @@
 				</div>
 			</div>
 		</div>
+		
+		<h4>Description</h4>
 		<div class="description">
-			Ouech tonton les amis
+			div centré avec margin : 0 auto;
+		</div>
+
+		<h4>Code</h4>
+		<div class="code">
+			<pre><code class="language-css">
+			.box__child {
+				width: $size_child_width;
+				height: $size_child_height;
+				
+				margin : 0 auto;
+				padding: $size_child_padding;
+				
+				text-align : center;
+			}
+			</code></pre>
 		</div>
 	</div>
 
 <!-- ======= R O W - 3 ======= -->
-
+	<h3>Centrage Horizontal - Inline Block</h3>
 	<div class="row row-3">
+		<h4>Démonstration</h4>
 		<div class="demo">
 			<div class="box__parent">
 				<div class="box__child">
 					coucou les amis
 				</div>
+				<div class="box__child">
+					coucou les amis
+				</div>
+				<div class="box__child">
+					coucou les amis
+				</div>
 			</div>
 		</div>
+		
+		<h4>Description</h4>
 		<div class="description">
-			Ouech tonton les amis
+			"display : inline-block;" pour les mettre à coté <br>
+			"text-align : center" sur le parent pour centrer.
+		</div>
+
+		<h4>Code</h4>
+		<div class="code">
+			<pre><code class="language-css">
+			.box__parent {
+				text-align : center;
+			}
+
+			.box__child {
+				width: $size_child_width;
+				height: $size_child_height;
+				display: inline-block;
+				
+				margin : 0 auto;
+				padding: $size_child_padding;
+			}
+			</code></pre>
 		</div>
 	</div>
 
 <!-- ======= R O W - 4 ======= -->
-
+	<h3>Centrage Horizontal - Float left</h3>
 	<div class="row row-4">
+		<h4>Démonstration</h4>
 		<div class="demo">
 			<div class="box__parent">
-				<div class="box__child">
-					coucou les amis
+				<div class="box__container">
+					<div class="box__child">
+						coucou les amis
+					</div>
+					<div class="box__child">
+						coucou les amis
+					</div>
+					<div class="box__child">
+						coucou les amis
+					</div>
 				</div>
 			</div>
 		</div>
+		
+		<h4>Description</h4>
 		<div class="description">
-			Ouech tonton les amis
+			"float : left;" sur les enfants. <br>
+			Utilisation d'une nouvelle div conteneur en "display: inline-block;" qui est, elle, affectée par <br>
+			le "text-align: center;" du parent.
 		</div>
+
+		<h4>Code</h4>
+		<div class="code">
+			<pre><code class="language-css">
+				.box__parent {
+					text-align: center;
+				}
+
+				.box__container {
+					display: inline-block; 
+				}
+
+				.box__child {
+					width: 75px;
+					height: 75px;
+					display: block;
+					float: left; 
+				}
+			</code></pre>
+		</div>
+
 	</div>
+
+<!-- =============================== -->
+<!-- ======= V E R T I C A L ======= -->
+<!-- =============================== -->
+
+	<h2>Centrage Vertical</h2>
 
 <!-- ======= R O W - 5 ======= -->
-
+	<h3>Centrage Vertical - Line Height</h3>
 	<div class="row row-5">
+		<h4>Démonstration</h4>
 		<div class="demo">
 			<div class="box__parent">
 				<div class="box__child">
@@ -84,11 +203,267 @@
 				</div>
 			</div>
 		</div>
+		
+		<h4>Description</h4>
 		<div class="description">
-			Ouech tonton les amis
+			"line-height : 300px;" La taille de la ligne est égale à celle du parent. <br>
+			Cette technique ne marche qu'en : "display: inline;" <br>
+			Attention : En "display: inline;" il n'est pas possible de définir la taille du fils.
+		</div>
+
+		<h4>Code</h4>
+		<div class="code">
+			<pre><code class="language-css">
+			.box__parent {
+				text-align: center;
+			}
+
+			.box__child {
+				display: inline; 
+				line-height : $size_parent_height;
+				padding: $size_child_padding; 
+			}
+			</code></pre>
+		</div>
+	</div> <!-- end of : .row .row-5 -->
+
+<!-- ======= R O W - 6 ======= -->
+	<h3>Centrage Vertical - Display Table (Vertcal Align)</h3>
+	<div class="row row-6">
+		<h4>Démonstration</h4>
+		<div class="demo">
+			<div class="box__parent">
+				<div class="box__container">
+					<div class="box__child">
+						coucou les amis
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<h4>Description</h4>
+		<div class="description">
+			On place le fils dans un conteneur <br>
+			Le parent est en "diplay : table;" <br>
+			Le conteneur est en "diplay : table-cell;" et "vertical-align : middle"<br>
+		</div>
+
+		<h4>Code</h4>
+		<div class="code">
+			<pre><code class="language-css">
+			.box__parent {
+				text-align: center;
+				display: table; 
+			}
+
+			.box__container {
+				display: table-cell;
+				vertical-align: middle;
+			}
+
+			.box__child {
+				width: $size_child_width;
+				height: $size_child_width;
+				display: inline-block;
+				
+				padding: $size_child_padding; 
+			}
+			</code></pre>
 		</div>
 	</div>
 
-</div>
+<!-- ======= R O W - 7 ======= -->
+	<h3>Centrage Vertical - Absolute + bords à 0</h3>
+	<div class="row row-7">
+		<h4>Démonstration</h4>
+		<div class="demo">
+			<div class="box__parent">
+				<div class="box__child">
+					coucou les amis
+				</div>
+			</div>
+		</div>
+		
+		<h4>Description</h4>
+		<div class="description">
+			Le fils est en "position: absolute;" et le parent en "position: relative;" <br>
+			On définit ensuite l'epace des bords (left, right, top, bottom) à 0 ainsi qu'une marge auto.
+		</div>
+
+		<h4>Code</h4>
+		<div class="code">
+			<pre><code class="language-css">
+			.box__parent {
+				position: relative; 
+			}
+
+			.box__child {
+				width: $size_child_width;
+				height: $size_child_width;
+				display: block;
+				position: absolute;
+				
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				
+				padding: $size_child_padding; 
+				margin: auto;
+			}
+			</code></pre>
+		</div>
+	</div>
+
+<!-- ======= R O W - 8 ======= -->
+	<h3>Centrage Vertical - Absolute + Margin Négatives</h3>
+	<div class="row row-8">
+		<h4>Démonstration</h4>
+		<div class="demo">
+			<div class="box__parent">
+				<div class="box__child">
+					coucou les amis
+				</div>
+			</div>
+		</div>
+		
+		<h4>Description</h4>
+		<div class="description">
+			Le fils est en "position: absolute;" et le parent en "position: relative;" <br>
+			on position l'élément à 50% de la gauche et du haut <br>
+			on recentre en mettant une margin négative de la motié de la taille de l'élément (+ éventuel padding) <br>
+			Attention : Fonctionne que si le fils est en "display: block;" 
+		</div>
+
+		<h4>Code</h4>
+		<div class="code">
+			<pre><code class="language-css">
+			.box__parent {
+				position: relative; 
+			}
+
+			.box__child {
+				width: $size_child_width;
+				height: $size_child_height;
+				display: block;
+				position: absolute;
+				
+				left: 50%;
+				top: 50%;
+
+				padding: $size_child_padding; 
+
+				margin-left: -($size_child_width / 2 + $size_child_padding);
+				margin-top: -($size_child_height / 2 + $size_child_padding);
+			}
+			</code></pre>
+		</div>
+	</div>
+
+<!-- ======= R O W - 9 ======= -->
+	<h3>Centrage Vertical - Absolute + Translate</h3>
+	<div class="row row-9">
+		<h4>Démonstration</h4>
+		<div class="demo">
+			<div class="box__parent">
+				<div class="box__child">
+					coucou les amis
+				</div>
+			</div>
+		</div>
+		
+		<h4>Description</h4>
+		<div class="description">
+			Le fils est en "position: absolute;" et le parent en "position: relative;" <br>
+			on position l'élément à 50% de la gauche et du haut <br>
+			on recentre en faisant une translation de -50% 
+		</div>
+
+		<h4>Code</h4>
+		<div class="code">
+			<pre><code class="language-css">
+			.box__parent {
+				position: relative; 
+			}
+
+			.box__child {
+				width: $size_child_width;
+				height: $size_child_height;
+				display: block;
+				position: absolute;
+				
+				left: 50%;
+				top: 50%;
+
+				padding: $size_child_padding; 
+
+				transform: translateX(-50%) translateY(-50%);
+			}
+			</code></pre>
+		</div>
+	</div>
+
+
+<!-- ======= R O W - 10 ======= -->
+	<h3>Centrage Vertical - Flex Box</h3>
+	<div class="row row-10">
+		<h4>Démonstration</h4>
+		<div class="demo">
+			<div class="box__parent">
+				<div class="box__child">
+					coucou les amis
+				</div>
+				<div class="box__child">
+					coucou les amis
+				</div>
+				<div class="box__child">
+					coucou les amis
+				</div>
+				<div class="box__child">
+					coucou les amis
+				</div>
+				<div class="box__child">
+					coucou les amis
+				</div>
+				<div class="box__child">
+					coucou les amis
+				</div>
+				<div class="box__child">
+					coucou les amis
+				</div>
+			</div>
+		</div>
+		
+		<h4>Description</h4>
+		<div class="description">
+			Utilisation des flex-box : "display: flex;"<br>
+			Solution la plus facile, le positionnement est paramétrable à l'aide de différentes propriétés.
+		</div>
+
+		<h4>Code</h4>
+		<div class="code">
+			<pre><code class="language-css">
+			.box__parent {
+				display: flex;
+				justify-content: center;
+				align-items: center;  
+				flex-wrap : wrap;
+				align-content : center;
+			}
+
+			.box__child {
+				width: $size_child_width;
+				height: $size_child_height;
+
+				padding: $size_child_padding; 
+			}
+			</code></pre>
+		</div>
+	</div>
+
+</div> <!-- .container .main -->
+
+<script src="libs/prism/prism.js"></script>
+
 </body>
 </html>

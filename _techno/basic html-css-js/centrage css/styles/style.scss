@@ -1,0 +1,356 @@
+@import "global";
+
+
+/**
+*
+*  G E N E R A L
+*
+**/
+
+* {
+	padding: 0;margin: 0;
+}
+
+body {
+	font-family: sans-serif;
+	background: $grey_400;
+}
+
+.container {
+	width : 900px;
+	margin: 0 auto;
+	background: $grey_200;
+}
+
+.main {
+	padding-top : 20px;
+}
+
+p {
+	margin: 0 $size_margin_left;
+}
+
+h
+{
+	&1 {
+		text-align : center;
+		
+		line-height: 100px;
+		font-size: 50px;
+		
+		font-weight: normal; 
+	}
+
+	&2 {
+		line-height: 40px;	
+		font-size: 35px;
+		
+		margin-top: 30px;
+		margin-left: $size_margin_left;
+		
+		font-weight: normal; 
+	}
+
+	&3 {
+		line-height: 30px;
+		font-size: 30px;
+		
+		margin-left: $size_margin_left;
+		margin-top: 50px;		
+		
+		color: $color_parent_border; 
+		font-weight: normal;
+	}
+
+	&4 {		
+		line-height: 30px;
+
+		margin : 20px;
+		margin-left: $size_margin_left;
+		
+		color: #555; 
+		font-weight: normal;
+	}
+
+}
+
+
+
+
+
+.row {
+	.demo {
+		margin : 20px 0;
+		padding: 10px 0;
+		background: #FEFEFE;
+	}
+
+	.description {
+		margin-left: $size_margin_left;
+		line-height: 20px;
+		font-size: 18px;
+	}
+}
+
+
+
+/**
+*
+*  B O X  L E G A C Y 
+*
+**/
+
+.box {
+	
+	&__parent {
+		width: $size_parent_width;
+		height: $size_parent_height;
+		
+		margin: 0 auto;
+
+		background: $color_parent_background;
+		border : $color_parent_border solid 2px;
+		color: #EEE;
+	}
+
+	&__container {
+		background: $color_container_background;
+		border : $color_container_border solid 2px;
+	}
+
+	&__child {
+		background: $color_child_background;
+		border : $color_child_border solid 2px;
+	}
+
+}
+
+
+/**
+*
+*  R O W S
+*
+**/
+
+
+/*==========  R O W  1  ==========*/
+
+.row-1 {
+	
+	.box__parent {
+		text-align : center;
+	}
+
+	.box__child {
+		width: $size_child_width;
+		height: $size_child_height;
+		display: inline-block;
+		
+		padding: $size_child_padding;
+	}
+
+}
+
+
+/*==========  R O W  2  ==========*/
+
+.row-2 {
+	
+	.box__child {
+		width: $size_child_width;
+		height: $size_child_height;
+		
+		margin : 0 auto;
+		padding: $size_child_padding;
+		
+		text-align : center;
+	}
+
+}
+
+
+/*==========  R O W  3  ==========*/
+
+.row-3 {
+	
+	.box__parent {
+		text-align : center;
+	}
+
+	.box__child {
+		width: $size_child_width;
+		height: $size_child_height;
+		display: inline-block;
+		
+		margin : 0 auto;
+		padding: $size_child_padding;
+	}
+
+}
+
+
+/*==========  R O W  4  ==========*/
+
+.row-4 {
+	
+	.box__parent {
+		text-align: center;
+	}
+
+	.box__container {
+		display: inline-block; 
+	}
+
+	.box__child {
+		width: $size_child_width;
+		height: $size_child_height;
+		display: block;
+		float: left; 
+		
+		padding: $size_child_padding;
+	}
+
+}
+
+/*==========  R O W  5  ==========*/
+
+.row-5 {
+	
+	.box__parent {
+		text-align: center;
+	}
+
+	.box__child {
+		display: inline; 
+		line-height : $size_parent_height;
+		padding: $size_child_padding; 
+	}
+
+}
+
+/*==========  R O W  6  ==========*/
+
+.row-6 {
+	
+	.box__parent {
+		text-align: center;
+		display: table; 
+	}
+
+	.box__container {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.box__child {
+		width: $size_child_width;
+		height: $size_child_width;
+		display: inline-block;
+		
+		padding: $size_child_padding; 
+	}
+
+}
+
+/*==========  R O W  7  ==========*/
+
+.row-7 {
+	
+	.box__parent {
+		position: relative; 
+	}
+
+	.box__child {
+		width: $size_child_width;
+		height: $size_child_width;
+		display: block;
+		position: absolute;
+		
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		
+		padding: $size_child_padding; 
+		margin: auto;
+	}
+
+}
+
+
+/*==========  R O W  8  ==========*/
+
+.row-8 {
+	
+	.box__parent {
+		position: relative; 
+	}
+
+	.box__child {
+		width: $size_child_width;
+		height: $size_child_height;
+		display: block;
+		position: absolute;
+		
+		left: 50%;
+		top: 50%;
+
+		padding: $size_child_padding; 
+
+		margin-left: -($size_child_width / 2 + $size_child_padding);
+		margin-top: -($size_child_height / 2 + $size_child_padding);
+	}
+
+}
+
+
+
+/*==========  R O W  9  ==========*/
+
+.row-9 {
+	
+	.box__parent {
+		position: relative; 
+	}
+
+	.box__child {
+		width: $size_child_width;
+		height: $size_child_height;
+		display: block;
+		position: absolute;
+		
+		left: 50%;
+		top: 50%;
+
+		padding: $size_child_padding; 
+
+		transform: translateX(-50%) translateY(-50%);
+	}
+
+}
+
+
+/*==========  R O W  10  ==========*/
+
+.row-10 {
+	
+	.box__parent {
+		display: flex;
+		-webkit-justify-content: center; 
+		justify-content: center;
+		-webkit-align-items: center; 
+		align-items: center;  
+		flex-wrap : wrap;
+		align-content : center;
+	}
+
+	.box__child {
+		width: $size_child_width;
+		height: $size_child_height;
+
+		padding: $size_child_padding; 
+	}
+
+}
+
+
