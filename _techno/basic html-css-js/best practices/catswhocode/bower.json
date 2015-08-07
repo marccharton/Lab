@@ -1,0 +1,21 @@
+{
+  "name": "catswhocode",
+  "version": "0.0.0",
+  "authors": [
+    "kram47 <Mcharton@hotmail.fr>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reset-css": "~2.0.2011012602",
+    "normalize.css": "~3.0.3",
+    "knacss": "~4.3.2"
+  }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>Best Practices - Catswhocode</title>
+	<link rel="stylesheet" href="libs/prism/prism.css">
+</head>
+<body>
+<header>
+	<div class="container">
+		<h1>Front End Best Practices</h1>
+	</div> <!-- .container -->
+</header>
+
+<div class="container main">
+	<section class="practice">
+		<h3>Indiquer quelle div se ferme</h3>
+		<p>
+			&lt;div class="practice"&gt; <br>
+			... <br>
+			&lt;/div&gt; &lt;!-- .practice --&gt; <br>
+		</p>
+	</section> <!-- .practice -->
+	<section class="practice">
+		<h3>Utiliser un reset CSS</h3>
+		<p>
+			Il existe pas mal de reset css sur internet.
+		</p>
+		<ul>
+			<li>Le plus simple : <a href="http://meyerweb.com/eric/tools/css/reset/">Eric Meyer</a> </li>
+			<li>Un peu plus costaud : <a href="https://github.com/necolas/normalize.css">Normalize.css</a></li>
+			<li>Plus qu'un simple reset, un style de base : <a href="http://knacss.com/#doc">Knacss</a></li>
+		</ul>
+	</section> <!-- .practice -->
+	<section class="practice">
+		<h3>Ne pas utiliser @import en CSS</h3>
+		<p>
+			L'utilisation de @import ralentit considérablement l'import des fichiers en comparaison à une inclusion normale avec link.
+		</p>
+	</section> <!-- .practice -->
+	<section class="practice">
+		<h3>Optimiser les images</h3>
+		<p>
+			Utiliser un outil pour optimiser les images.
+			<ul>
+				<li><a href="http://www.imgopt.com/">SmushIt</a></li>
+				<li>Package Gulp : <a href="https://www.npmjs.com/package/gulp-image-optimization">gulp-image-optimization</a></li>
+			</ul>
+		</p>
+	</section> <!-- .practice -->
+	<section class="practice">
+		<h3>Ne pas mélanger le CSS avec le HTML</h3>
+		<p>
+			La balise style est à proscrire !
+		</p>
+	</section> <!-- .practice -->
+	<section class="practice">
+		<h3>Utiliser les commentaires conditionnel</h3>
+		<p>
+			&lt;!--[if lte IE 6]&gt; <br>
+  				&lt;link href=&quot;ie.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt; <br>
+			&lt;![endif]--&gt;
+		</p>
+	</section> <!-- .practice -->
+	<section class="practice">
+		<h3>PLacer le code javascript à la fin de la balise body</h3>
+		<p>
+			&lt;script&gt;&lt;/script&gt; <br>
+			&lt;/body&gt;
+		</p>
+	</section> <!-- .practice -->
+	<section class="practice">
+		<h3>Tester la compatibilité cross-platform durant le développement</h3>
+		<p>
+			Des outils très pratiques existent pour ne pas installer tous types de navigateurs <br>
+			Exemple : <a href="https://spoon.net/browsers/">spoon.net</a>
+		</p>
+	</section> <!-- .practice -->
+
+</div> <!-- .container.main -->
+<script type="text/javascript" scr="libs/prism/prism.js"></script>
+</body>
+</html>
