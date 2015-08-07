@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table tests</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+<header>
+	<div class="container">
+		<h1>Tests Tables</h1>
+	</div>
+</header>
+
+<div class="container main">
+
+	<table>
+		<thead>
+			<tr>
+				<td>Titre 01</td>
+				<td>Titre 02</td>
+				<td colspan="2">Titre 03</td>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td>Footer 01</td>
+				<td>Footer 02</td>
+				<td colspan="2">Footer 03</td>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr>
+				<td rowspan="2">Contenu 01</td>
+				<td>Contenu 02</td>
+				<td>Contenu 03</td>
+				<td>Contenu 04</td>
+			</tr>
+			<tr>
+				<td>Contenu 11</td>
+				<td>Contenu 12</td>
+				<td>Contenu 13</td>
+			</tr>
+			<tr>
+				<td colspan="3">Contenu 21</td>
+				<td>Contenu 22</td>
+			</tr>
+			<tr>
+				<td colspan="1000">Contenu 31</td>
+			</tr>
+		</tbody>
+	</table>
+
+</div>
+</body>
+</html>

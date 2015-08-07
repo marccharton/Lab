@@ -1,0 +1,40 @@
+@mixin box($size : 1px, $color : black) {
+ 	border : $size solid $color;
+ 	background : lighten($color, 40);
+}
+
+
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	width : 900px;
+	margin : 0 auto;	
+}
+
+table {
+	@include box($size : 3px, $color : blue);
+	padding: 20px; 
+
+	thead {
+		tr td {
+			@include box($size : 5px, $color : green);
+		}
+	}
+
+	tfoot {
+		tr td {
+			@include box($size : 5px, $color : red);
+		}		
+	}
+
+	tbody {
+		tr td {
+			@include box($size : 5px, $color : #FE0);
+		}		
+	}
+
+}
+
+	

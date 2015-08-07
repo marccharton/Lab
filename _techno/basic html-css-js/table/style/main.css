@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif; }
+
+.container {
+  width: 900px;
+  margin: 0 auto; }
+
+table {
+  border: 3px solid blue;
+  background: #ccccff;
+  padding: 20px; }
+  table thead tr td {
+    border: 5px solid green;
+    background: #4dff4d; }
+  table tfoot tr td {
+    border: 5px solid red;
+    background: #ffcccc; }
+  table tbody tr td {
+    border: 5px solid #FE0;
+    background: #fffccc; }
+
+/*# sourceMappingURL=main.css.map */
