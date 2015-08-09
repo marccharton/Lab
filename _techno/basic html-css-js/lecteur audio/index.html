@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta http-equiv="Contetn-Type" content="text/html; charset=UTF-8" />
+        <title>Lecteur Audio HTML 5</title>
+        <link rel="stylesheet" href="style/main.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1>Lecteur Audio</h1>
+            </div>
+        </header>
+        <div class="main container">
+            <div class="intro">
+                <p>Voici un petit lecteur tout simple pour s'amuser un peu avec HTML 5 !</p>
+            </div>
+            <section class="player">
+                <audio src="data\music\fakear\Fakear - SAUVAGE EP\fakear - La Lune Rousse.mp3" id="player" controls></audio>
+                <div class="buttons">
+                    <button id="button_play">Play</button>
+                    <button id="button_pause">Pause</button>
+                    <button id="button_volumeDown">Volume -</button>
+                    <button id="button_volumeUp">Volume +</button>
+                    <button id="button_infoPanel">View Info</button>
+                </div>
+                <div id="infoPanel"></div>
+            </section>
+        </div>
+        <script src="js/player.js"></script>
+        <script src="js/app.js"></script>
+        <script type="text/javascript">
+            var app = new App();
+            app.init();
+        </script>
+    </body>
+</html>
