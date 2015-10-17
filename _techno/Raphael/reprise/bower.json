@@ -1,0 +1,23 @@
+{
+  "name": "reprise",
+  "version": "0.0.0",
+  "authors": [
+    "kram47 <Mcharton@hotmail.fr>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "raphael": "~2.1.4",
+    "g.raphael": "DmitryBaranovskiy/g.raphael#~0.4.1"
+  }
+}
