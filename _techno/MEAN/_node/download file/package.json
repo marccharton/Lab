@@ -1,0 +1,24 @@
+{
+  "name": "pdf_downloader",
+  "version": "0.2.1",
+  "description": "A downloader for splitted pdf over the web",
+  "main": "app.js",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "http-get": "^0.5.10",
+    "pdfkit": "^0.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "node js/app.js"
+  },
+  "keywords": [
+    "pdf",
+    "downloader",
+    "html",
+    "hack"
+  ],
+  "author": "kram47",
+  "license": "ISC"
+}
