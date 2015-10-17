@@ -1,0 +1,24 @@
+{
+  "name": "scotch-io--starter-node-angular",
+  "version": "0.0.0",
+  "authors": [
+    "kram47 <Mcharton@hotmail.fr>"
+  ],
+  "main": "public/js/app.js",
+  "license": "MIT",
+  "homepage": "public/index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+      "bootstrap": "latest",
+      "font-awesome": "latest",
+      "animate.css": "latest",
+      "angular": "latest",
+      "angular-route": "latest"   
+    }
+}
