@@ -12,6 +12,12 @@ var colors = require('colors');
 
 "use strict";
 
+
+exports.loadFiles = loadFiles;
+
+
+//////////////////////
+
 function load_next_file(files, finalcb) {
 
     if (files.length == 0) {
@@ -39,7 +45,7 @@ function load_next_file(files, finalcb) {
     }); 
 };  
 
-exports.loadFiles = function (files, callback) {
+function loadFiles(files, callback) {
     var file_json_formatted = JSON.parse(JSON.stringify(files));
 
     process.stdout.write('[');

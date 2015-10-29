@@ -14,17 +14,17 @@ var config = config || {};
 config.page_value_start          = 1;
 
 // The value until the pattern will go to
-config.page_value_stop           = 52;
+config.page_value_stop           = 21;
 
 // The step between each page
-config.page_value_step           = 1;
+config.page_value_step           = 01;
 
 
 // The template of the url (with the pattern)
-config.url_template              = "http://image.slidesharecdn.com/notefrahtml520120903-120903074949-phpapp02/95/html5-how-to-rethink-your-web-strategy-version-fr-{{%d}}-728.jpg?cb=1348833846";
+config.url_template              = "https://manuwino.files.wordpress.com/2015/10/slayerzenith2015-{{%d}}.jpg?w=1000&h=&crop=1";
 
 // The final document name
-config.document_name             = "Fabernovel - HTML5 How to rethink your web strategy"
+config.document_name             = "Slayer Zenith 2015"
 
 // Files directory
 config.directory                 = "Files/"
@@ -33,10 +33,15 @@ config.directory                 = "Files/"
 config.destination_path          = config.directory + config.document_name + "/";
 
 // The template for every page of the document
-config.destination_file_template = "Fabernovel - HTML5 How to rethink your web strategy (page {{%d}}).jpg";
+config.destination_file_template = "Slayer Zenith 2015 {{%d}}.jpg";
 
 // The type of pattern to process each page
 config.string_pattern            = "{{%d}}";
 
+// The export of pdf
+config.IsExportPdfActivated      = false;
+
+// IsZeroMandatory
+config.IsZeroMandatory           = true;
 
 module.exports = config;
