@@ -7,7 +7,7 @@
 
     $(document).ready(function() {
         var paper = Raphael('mapHolder', 1000, 500);
-        var mapData = map.GenerateMap(paper, attributes);
+        var mapData = map.GenerateMap(paper);
         
         map.RenderMap(paper, mapData);
     });

@@ -5,7 +5,7 @@
 
 (function() {
 
-    window.mapService = {
+    window.MapService = {
         GetCountryInformations : GetCountryInformations
     };
 
