@@ -1,0 +1,16 @@
+/*
+///
+/// @filename style/main.css
+/// @datecreation 20/10/2015
+///
+*/
+
+body {
+	background: #111;
+}
+
+#mapHolder {
+	width : 1000px;
+	height : 500px;
+	margin : 0 auto;
+}
