@@ -3,7 +3,7 @@
 /// @datecreation 20/10/2015
 ///
 
-(function() {
+(function(MapConfig) {
 
     window.MapService = {
         GetCountryInformations : GetCountryInformations
@@ -13,7 +13,7 @@
 
     function GetCountryInformations (code, callback) {
 
-        var endpoint = "https://restcountries.eu/rest/v1/alpha?codes=" + code;
+        var endpoint = MapConfig.endpoint + code;
         var country;
 
         $.ajax({
@@ -26,7 +26,6 @@
 
         function successCallback (data, statut) {
             country = data[0];
-            console.log(data[0]);
             callback(data[0]);
         }
 
@@ -41,4 +40,4 @@
 
     };
 
-})()
+})(MapConfig)

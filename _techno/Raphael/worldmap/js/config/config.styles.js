@@ -5,10 +5,8 @@
 
 var config = config || {};
 
-config.styles = (function () {
-	
-	return {
-
+config.styles = 
+	{
 		basic : {
 	        "fill": "#777",
 	        "stroke": "#000",
@@ -26,6 +24,4 @@ config.styles = (function () {
 			"stroke": "#000"
 		}
 		
-	}
-
-})();
+	};

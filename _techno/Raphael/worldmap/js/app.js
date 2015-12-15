@@ -6,10 +6,10 @@
 (function($, map) {
 
     $(document).ready(function() {
-        var paper = Raphael('mapHolder', 1000, 500);
-        var mapData = map.GenerateMap(paper);
+        var paper = Raphael('mapHolder', "1000", "400");
         
-        map.RenderMap(paper, mapData);
+        map.Init(paper);
+        map.GenerateMap();
     });
 
 })(jQuery, map);

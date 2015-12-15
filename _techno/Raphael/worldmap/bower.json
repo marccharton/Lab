@@ -1,0 +1,23 @@
+{
+  "name": "worldmap",
+  "version": "0.0.1",
+  "authors": [
+    "kram47 <Mcharton@hotmail.fr>"
+  ],
+  "description": "interactive worldmap",
+  "main": "js/app.js",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "raphael": "~2.1.4"
+  }
+}
